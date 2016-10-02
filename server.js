@@ -7,21 +7,23 @@ app.use(morgan('combined'));
 
 
 var articles= {
-var articleOne :  {
-    title:'Article-One||Meenakshi Ramanathan', 
-heading: 'Article-One',
-date: 'October 20',
-content: ` </p> I have to develop a web app...And this would be the 1st page of it</p><p> I have to develop a web app...And this would be the 1st page of it</p><p> I have to develop a web app...And this would be the 1st page of it</p><p> I have to develop a web app...And this would be the 1st page of it</p>`
-    },
-var articleTwo={title:'Article2||Meenakshi Ramanathan',
+     'articleOne' : {
+    title:'Article1||Meenakshi Ramanathan'.
+    heading:'Article-One',
+    date:'October 10',
+    content: ` </p> I have to develop a web app...And this would be the 2nd page of it</p><p> I have to develop a web app...And this would </p>`},
+     
+     ' articleTwo':{title:'Article2||Meenakshi Ramanathan',
     heading:'Article-Two',
     date:'October 20',
     content: ` </p> I have to develop a web app...And this would be the 2nd page of it</p><p> I have to develop a web app...And this would </p>`},
-var articleThree={title:'Article3||Meenakshi Ramanathan',
+       
+        'articleThree':{title:'Article3||Meenakshi Ramanathan',
     heading:'Article-Three',
     date:'October 20',
     content: ` </p> I have to develop a web app...And this would be the 3rd page of it</p>`},
-var articleFour={title:'Article4||Meenakshi Ramanathan',
+          
+          ' articleFour':{title:'Article4||Meenakshi Ramanathan',
     heading:'Article-Four',
     date:'October 20',
     content: ` </p> I have to develop a web app...And this would be the 4th page of it</p>`}
@@ -43,7 +45,7 @@ ${title}
 <meta name="viewport" content="width-device-width ,  initial-scale=1"/>
 <link href="/ui/style.css" rel="stylesheet"/>
 </head>
-
+${heading}
 <body>
 <div class="container">
 <div>
@@ -75,21 +77,15 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one',function(req,res){
-    res.send(createTemplate(article-one));
+app.get('/:articleName',function(req,res){
+    
+    //articleName==articleOne
+    //articles[articleName]=={}content object for article one
+    
+    var articleName=req.params.articleName;
+    res.send(createTemplate(articles[articleName]));
 });
 
-app.get('/article-two',function(req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
-});
-
-app.get('/article-three',function(req,res){
-   res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
-});
-
-app.get('/article-four',function(req,res){
-    res.sendFile(path.join(__dirname, 'ui', 'article-four.html'));
-});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
