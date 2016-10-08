@@ -28,7 +28,5 @@
      request.open('GET','http://meenakshiramanathan.imad.hasura-app.io/counter',true);
      request.send(null);
      
-     counter=counter+1;
-     var span=getElementById('count');
-     span.innerHTML=counter.toString();
+     
  };
