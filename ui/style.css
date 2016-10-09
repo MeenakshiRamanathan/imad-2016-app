@@ -46,8 +46,7 @@ div:hover {
     height: 300px;
 }
 div {
-    -webkit-transform: rotateY(60deg); /* Chrome, Safari, Opera */
-    -webkit-transform-style: preserve-3d; /* Chrome, Safari, Opera */
-    transform: rotateY(60deg);
-    transform-style: preserve-3d;
+    -webkit-animation-delay: -2s; /* Chrome, Safari, Opera */
+    animation-delay: -2s;
 }
+
