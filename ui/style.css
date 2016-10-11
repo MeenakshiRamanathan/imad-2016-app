@@ -16,7 +16,7 @@ body {
     font-weight: bold;
 }
 
-.img-big {
+.img {
     height: 400px;
     width:400;
     -webkit-transform:rotate(180deg);
