@@ -1,4 +1,4 @@
-body{ background:url(http://www.splitshire.com/wp-content/uploads/2016/07/SplitShire-180017-768x512.jpg); font-family:arial;}
+body{ background:url(http://www.splitshire.com/wp-content/uploads/2016/07/SplitShire-180017-768x512.jpg) no-repeat; font-family:arial;}
 #wrapper{ width:770px; margin:auto;}
 .header{ width:100%;  background:#000; padding:5px 0; margin-bottom:180px;}
 h1{ color:#fff; margin:0; font-size:25px;}
