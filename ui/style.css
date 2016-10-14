@@ -1,6 +1,15 @@
-body{ background:url(http://www.splitshire.com/wp-content/uploads/2016/07/SplitShire-180017-768x512.jpg) no-repeat;background-size:cover; font-family:arial;}
-#wrapper{ width:770px; margin:auto;}
-.header{ width:100%;  background:#000; padding:5px 0; margin-bottom:180px;}
+body{ background:url(http://www.splitshire.com/wp-content/uploads/2016/07/SplitShire-180017-768x512.jpg) no-repeat;background-size:cover; font-family:arial;  margin: 0;
+    padding: 0;}
+#wrapper{ background: #fff none repeat scroll 0 0;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 26px;
+    width: 770px;}
+.header{ background: #000 none repeat scroll 0 0;
+    margin-bottom: 180px;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;}
 h1{ color:#fff; margin:0; font-size:25px;}
 .about h2{ background:#303030; color:#fff; font-size:34px; text-transform:uppercase; padding:16px 35px; display:inline-block; margin:0px;}
 .content{ width:100%;}
