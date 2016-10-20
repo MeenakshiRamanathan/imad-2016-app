@@ -21,7 +21,7 @@ var articles= {
         'articleThree':{title:'Article3||Meenakshi Ramanathan',
     heading:'Article-Three',
     date:'October 20',
-    img:'"img" src="http://www.thestylechic.com/wp-content/uploads/2016/09/This-Love-that-Feels-Right-1.jpg" alt="The Pulpit Rock" width="304" height="228"',
+    img:'"http://www.thestylechic.com/wp-content/uploads/2016/09/This-Love-that-Feels-Right-1.jpg" alt="The Pulpit Rock" width="304" height="228"',
     content: `<p> I have to develop a web app...And this would be the 3rd page of it</p>`},
           
           'articleFour':{title:'Article4||Meenakshi Ramanathan',
