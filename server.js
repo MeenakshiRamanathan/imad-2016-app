@@ -7,27 +7,27 @@ app.use(morgan('combined'));
 
 
 var articles= {
-     'articleOne' : 
-     {
-    title:'Article1||Meenakshi Ramanathan',
+     'articleOne' :{title:'Article1||Meenakshi Ramanathan',
     heading:'Article-One',
     date:'October 10',
-    content: ` </p> I have to develop a web app...And this would be the 2nd page of it</p><p> I have to develop a web app...And this would </p>`},
+    <img id="myImg" src="img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228">,
+    content:`<p> I have to develop a web app...And this would be the 2nd page of it</p>`},
      
      ' articleTwo':{title:'Article2||Meenakshi Ramanathan',
     heading:'Article-Two',
     date:'October 20',
-    content: ` </p> I have to develop a web app...And this would be the 2nd page of it</p><p> I have to develop a web app...And this would </p>`},
+    content: ` <p> I have to develop a web app...And this would be the 2nd page of it</p>`},
        
         'articleThree':{title:'Article3||Meenakshi Ramanathan',
     heading:'Article-Three',
     date:'October 20',
-    content: ` </p> I have to develop a web app...And this would be the 3rd page of it</p>`},
+    <img id="myImg" src="http://www.thestylechic.com/wp-content/uploads/2016/09/This-Love-that-Feels-Right-1.jpg" alt="The Pulpit Rock" width="304" height="228">,
+    content: `<p> I have to develop a web app...And this would be the 3rd page of it</p>`},
           
-          ' articleFour':{title:'Article4||Meenakshi Ramanathan',
+          'articleFour':{title:'Article4||Meenakshi Ramanathan',
     heading:'Article-Four',
     date:'October 20',
-    content: ` </p> I have to develop a web app...And this would be the 4th page of it</p>`}
+    content: `</p> I have to develop a web app...And this would be the 4th page of it</p>`}
 };
 
 function createTemplate(data){
@@ -59,6 +59,10 @@ ${heading}
 <div>
 ${date}
 </div>
+function myFunction() {
+    var x = document.getElementById("myImg").src;
+    document.getElementById("demo").innerHTML = x;
+}
 ${content}
 </div>
 </body>
