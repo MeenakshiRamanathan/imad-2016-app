@@ -10,7 +10,7 @@ var articles= {
      'articleOne' :{title:'Article1||Meenakshi Ramanathan',
     heading:'Article-One',
     date:'October 10',
-    image1 : {url:'http://image2',props:[],else:'val',
+    image1 : {url:'http://image2',props:[],else:'val'},
     content:`<p> I have to develop a web app...And this would be the 2nd page of it</p>`},
      
      ' articleTwo':{title:'Article2||Meenakshi Ramanathan',
@@ -21,7 +21,7 @@ var articles= {
         'articleThree':{title:'Article3||Meenakshi Ramanathan',
     heading:'Article-Three',
     date:'October 20',
-    image2 : {url:'http://image2',props:[],else:'val',
+    image2 : {url:'http://image2',props:[],else:'val'},
     content: `<p> I have to develop a web app...And this would be the 3rd page of it</p>`},
           
           'articleFour':{title:'Article4||Meenakshi Ramanathan',
