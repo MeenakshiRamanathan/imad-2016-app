@@ -76,7 +76,7 @@ ${date}
 <div>
 ${img}
 </div>
-
+ <div class="col-md-6" style="background-color:yellow;">
 ${content}
 </div>
 </body>
