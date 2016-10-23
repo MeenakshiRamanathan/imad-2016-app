@@ -10,7 +10,7 @@ var articles= {
      'articleOne' :{title:'Article1||Meenakshi Ramanathan',
     heading:'Article-One',
     date:'October 10',
-    img:'"img_pulpit.jpg" alt="The Pulpit Rock" width="304" height="228"',
+    image1 : {url:'http://image2',props:[],else:'val',
     content:`<p> I have to develop a web app...And this would be the 2nd page of it</p>`},
      
      ' articleTwo':{title:'Article2||Meenakshi Ramanathan',
@@ -21,7 +21,7 @@ var articles= {
         'articleThree':{title:'Article3||Meenakshi Ramanathan',
     heading:'Article-Three',
     date:'October 20',
-    img:"http://www.thestylechic.com/wp-content/uploads/2016/09/This-Love-that-Feels-Right-1.jpg" alt="The Pulpit Rock" width="304" height="228",
+    image2 : {url:'http://image2',props:[],else:'val',
     content: `<p> I have to develop a web app...And this would be the 3rd page of it</p>`},
           
           'articleFour':{title:'Article4||Meenakshi Ramanathan',
