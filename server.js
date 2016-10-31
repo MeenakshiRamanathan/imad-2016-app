@@ -52,7 +52,7 @@ ${title}
 ${heading}
 <body>
 <div class="container">
-<div class=col-md-5>
+
 <div>
 <a href="/">Home</a>
 </div>
@@ -67,14 +67,15 @@ ${date}
 <div>
 ${img}
 </div>
- <div class="col-md-6" style="background-color:yellow;">
+ <div>
 ${content}
 </div>
+</div>
 </body>
-</html>`
+</html>
 ;
 
-return htmlTemplate;
+return htmlTemplate
 }
 
 
