@@ -72,7 +72,7 @@ ${content}
 </div>
 </div>
 </body>
-</html>
+</html>`
 ;
 
 return htmlTemplate
@@ -104,6 +104,11 @@ app.get('/:articleName',function(req,res){
     
     var articleName=req.params.articleName;
     res.send(createTemplate(articles[articleName]));
+});
+
+
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
 
