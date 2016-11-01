@@ -48,17 +48,17 @@ body{ background:url(http://www.splitshire.com/wp-content/uploads/2016/07/SplitS
     text-align: center;
     width: 100%;}
 h1{ color:#fff; margin:0; font-size:25px;}
-.about h2{ background:#303030; color:#fff; font-size:34px; text-transform:uppercase; padding:16px 35px; display:inline-block; margin:0px;}
+.about h2{ background:#303030; color:#fff; font-size:34px; text-transform:uppercase; padding:16px 35px; display:inline-block; margin:0;}
 .con{ width:100%;}
-.con h3 {
+.con p{
     text-align:center;
     color: #fff;
     font-size: 14px;
     line-height: 21px;
     
-    text-align: justify;
+    
 }
-.left{  background: #2e84a6 none repeat scroll 0 0;text-align:center;
+.left{  background: #2e84a6 none repeat scroll 0 0;
     float: left;
     min-height: 164px;
     padding: 17px;
