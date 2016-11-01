@@ -101,7 +101,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 </ul>
 </div>
 </div>
-<div class="col-md-8 col-sm-8" style="background:#2E84A6; padding:15px">
+<div class="col-md-6 col-sm-6" style="background:#2E84A6; padding:15px">
 
 <div class="banner"><center>
 <img src="https://kbimages1-a.akamaihd.net/43db11f0-3085-4f63-90eb-43d95d0a2647/166/300/False/this-love-that-feels-
