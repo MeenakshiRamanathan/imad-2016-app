@@ -78,7 +78,7 @@ body{ background:url(https://s-media-cache-ak0.pinimg.com/736x/d8/88/22/d888227c
 
 
 img{border:none; width:100%;}
-#wrapper{ background:rgba(0,0,0,0.5); overflow:hidden;width: 770px;}
+#wrapper{ background:rgba(0,0,0,0.5); overflow:hidden;}
 .title h3{font-size: 15px; color:#fff;font-family:Harrington;font-style:Oblique;
     text-transform: uppercase; text-align:center}
 .banner{ margin-bottom:20px}
