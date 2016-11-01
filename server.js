@@ -79,7 +79,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <div id="wrapper">
 
 <div class="tittle">
-<h1>${heading}</h1>
+<h1>${heading}</h3>
 
 </div>
 
@@ -89,7 +89,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <p>${content}</p>
 </div>
 <div class="links">
-<h3>Some links are</h3>
+<h2>Some links are</h4>
 <ul>
 <li><a href="">Amazon</a></li>
 <li><a href="">Snapdeal</a></li>
