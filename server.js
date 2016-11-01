@@ -13,7 +13,7 @@ var articles= {
     
     content:`"Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled 
 
-with 'real' content. This is required when, for example, the final text is not yet available. "`},
+with 'real' content. This is required when, for example, the final text is not yet available. "`,
     content1:`<p>
 Life would have been easier had it been possible for us to plan falling in love , More importantly, avoid falling in love...'Love is not 
 
@@ -32,7 +32,7 @@ start searching that anywhere else.</p>
 <p>Having an extra relationship is very common these days. In other words, one start having different partners for different 
 
 expectations.
- </p>`,
+ </p>`},
  content2:`<p>"Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled 
 
 with 'real' content. This is required when, for example, the final text is not yet available."</p>`,
