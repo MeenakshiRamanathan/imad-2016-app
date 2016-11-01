@@ -64,7 +64,7 @@ h1{ color:#fff; margin:0; font-size:25px;}
     padding: 17px;
     width: 500px;}
 .left img{ width:30px; margin:0 8px 0 0;float:right;}
-.right{ width:250px; float:left;align:"middle"}
+.right{ width:250px; float:left;align:'middle'}
 .right img{ width:100%; height:184px;border: 7px solid #fff;}
 
 
