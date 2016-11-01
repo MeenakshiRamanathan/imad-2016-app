@@ -120,8 +120,8 @@ ${content1}
 </div>
 <div class="form">
 <form>
-<label>Comment : </label>
-<textarea placeholder="Comment"></textarea>
+<label>Tell us what you think </label>
+<textarea placeholder="Write your comments here....!Don't forget to B-nice"></textarea>
 <input type="submit" value="Submit" class="submit"/>
 <form>
 </div>
