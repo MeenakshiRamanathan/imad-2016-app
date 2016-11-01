@@ -78,13 +78,13 @@ body{ background:url(https://s-media-cache-ak0.pinimg.com/736x/d8/88/22/d888227c
 
 
 img{border:none; width:100%;}
-#wrapper{ background:rgba(0,0,0,0.5); overflow:hidden;}
+/*#wrapper{ background:rgba(0,0,0,0.5); overflow:hidden;}*/
 .title h3{font-size: 15px; color:#fff;font-family:Harrington;font-style:Oblique;
     text-transform: uppercase; text-align:center}
 .banner{ margin-bottom:20px}
 .banner img{ border-radius:5px;height :200px;width:200px;left:150px}
-.content{ margin-bottom:0px}
-.content p{text-align:justify; color:#fff;font-family: "Lucida Calligraphy";font-size:10px}
+.content{ margin-bottom:0}
+.content p{text-align:justify; color:#fff;font-family: "Lucida Calligraphy";font-size:14px}
 .user img {
     width: 21%;
 }
@@ -100,14 +100,14 @@ textarea {
     margin: 0 0 11px !important;
     width: 100%; padding:0 0 0 5px;
 }
- .submit{width:25%; background:#D93B0B; padding:10px 20px; font-size:10px; color:#fff; font-weight:bold; border:none;font-family: 
+ .submit{width:25%; background:#D93B0B; padding:10px 20px; color:#fff; font-weight:bold; border:none;font-family: 
 
 "Lucida Calligraphy";font-size:14px}
  .submit:hover{background:#FD4E19;}
  .quotes > p {
-font-family: "Lexia";font-style:italic;
+font-family: "Lexia";
     color:#CC2AF5;
-    font-size: 10px;
+    font-size: 14px;
     font-style: italic;
     text-align: left;
 }
@@ -123,16 +123,16 @@ font-family: "Lexia";font-style:italic;
     padding: 10px 0;
     text-align: center;
     text-transform: uppercase;
-font-family: "Lucida Calligraphy";font-size:10px;
+font-family: "Lucida Calligraphy";font-size:14px;
 }
 .links ul {
     margin: 0;
     padding: 0;
 }
 .links ul li a {
-font-family: "Lucida Calligraphy";font-size:14px;
+font-family: "Lucida Calligraphy";
     color: #fff;
-    font-size: 10px;
+    font-size: 14px;
     padding: 0 0 0 22px;transition: all 0.3s ease 0s;
 }
 .links ul li a:hover{ color:#DA5840; padding: 0 0 0 29px;}
@@ -146,7 +146,7 @@ repeat 0 10px;
 }
 .bio{ background:#E8E8E8; padding: 10px;}
 .bio img{ border-radius:100%; margin-bottom:25px}
-.bio p{ color:#F743E8;  text-align:justify;font-family: "Lexia";font-style:italic;font-size:10px}
+.bio p{ color:#F743E8;  text-align:justify;font-family: "Lexia";font-style:italic;font-size:14px}
 
 
 
