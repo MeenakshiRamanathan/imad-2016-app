@@ -17,9 +17,9 @@ app.use(morgan('combined'));
 var articles= {
      'articleOne' :{title:'Article1||Meenakshi Ramanathan',
     heading:'This  love that feels right',
-    img:{url:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSZId01rfLgcXAnxZ0ZfxabBdAAfluOs2U5gonLxtTO7WQKZv55ZA',props:[],else:'val'},
+    img:'url(http://www.splitshire.com/wp-content/uploads/2016/07/SplitShire-180017-768x512.jpg)',
 
-    date:'October 10',
+    
     
     content:`"Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled 
 
