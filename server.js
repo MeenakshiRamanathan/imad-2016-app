@@ -17,7 +17,7 @@ app.use(morgan('combined'));
 var articles= {
      'articleOne' :{title:'Article1||Meenakshi Ramanathan',
     heading:'This  love that feels right',
-    img: {url:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSZId01rfLgcXAnxZ0ZfxabBdAAfluOs2U5gonLxtTO7WQKZv55ZA',props:[],else:'val'},
+    img:{url:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSZId01rfLgcXAnxZ0ZfxabBdAAfluOs2U5gonLxtTO7WQKZv55ZA',props:[],else:'val'},
 
 
     
@@ -50,6 +50,7 @@ with 'real' content. This is required when, for example, the final text is not y
      
      'articleTwo' :{title:'Article2||Meenakshi Ramanathan',
     heading:'Article-Two',
+    
     date:'October 20',
     content: ` <p> I have to develop a web app...And this would be the 2nd page of it</p>`},
        
