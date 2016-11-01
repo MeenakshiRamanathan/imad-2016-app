@@ -5870,7 +5870,7 @@ body{ background:url(http://www.themesrefinery.net/wp-content/uploads/2014/06/we
 
 
 img{border:none; width:100%;}
-#wrapper{ background:rgba(0,0,0,0.5); overflow:hidden;}
+#wrapper{ background:rgba(0,0,0,0.5); overflow:hidden;width: 770px;}
 .title h1{font-size: 22px; color:#fff;font-family:Harrington;font-style:Oblique;font-size:40px;
     text-transform: uppercase; text-align:center}
 .banner{ margin-bottom:20px}
