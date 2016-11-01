@@ -17,7 +17,7 @@ app.use(morgan('combined'));
 var articles= {
      'articleOne' :{title:'Article1||Meenakshi Ramanathan',
     heading:'This  love that feels right',
-    img:{url:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSZId01rfLgcXAnxZ0ZfxabBdAAfluOs2U5gonLxtTO7WQKZv55ZA',props:[],else:'val'},
+   
 
 
     
