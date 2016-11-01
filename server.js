@@ -70,7 +70,7 @@ function createTemplate(data){
     var title=data.title;
     
     var heading=data.heading;
-    var img=data.img;
+    
     var content=data.content;
     
     var content1=data.content1;
@@ -98,9 +98,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <h3>${heading}</h3>
 
 </div>
-<div>
-${img}
-</div>
+
 
 
 <div class="col-md-3 col-sm-3">
