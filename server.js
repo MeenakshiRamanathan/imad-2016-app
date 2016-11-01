@@ -10,10 +10,10 @@ var articles= {
      'articleOne' :{title:'Article1||Meenakshi Ramanathan',
     heading:'Article-One',
     date:'October 10',
-    img : {url:'http://image2',props:[],else:'val'},
+    
     content:`<p> I have to develop a web app...And this would be the 2nd page of it</p>`},
      
-     ' articleTwo':{title:'Article2||Meenakshi Ramanathan',
+     'articleTwo' :{title:'Article2||Meenakshi Ramanathan',
     heading:'Article-Two',
     date:'October 20',
     content: ` <p> I have to develop a web app...And this would be the 2nd page of it</p>`},
@@ -21,13 +21,13 @@ var articles= {
         'articleThree':{title:'Article3||Meenakshi Ramanathan',
     heading:'Article-Three',
     date:'October 20',
-    img : {url:'http://image2',props:[],else:'val'},
+    
     content: `<p> I have to develop a web app...And this would be the 3rd page of it</p>`},
           
           'articleFour':{title:'Article4||Meenakshi Ramanathan',
     heading:'Article-Four',
     date:'October 20',
-    content: `</p> I have to develop a web app...And this would be the 4th page of it</p>`}
+    content: `</p> I have to develop a web app...And this would be the 4th page of it</p>`},
 };
 
 function createTemplate(data){
@@ -35,13 +35,12 @@ function createTemplate(data){
     var date=data.date;
     var heading=data.heading;
     var content=data.content;
-    var img=data.img;
+    
 
 }
     
     
-var htmlTemplate = `
-                  <html> 
+var htmlTemplate = `<html> 
 <head>
 <title>
 ${title}
@@ -64,16 +63,13 @@ ${heading}
 ${date}
 </div>
 
-<div>
-${img}
-</div>
+
  <div>
 ${content}
 </div>
 </div>
 </body>
-</html>`
-;
+</html>`;
 
 return htmlTemplate
 }
