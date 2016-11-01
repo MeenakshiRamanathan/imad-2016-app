@@ -81,7 +81,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <div class="container">
 <div id="wrapper">
 
-<div class="tittle">
+<div class="title">
 <h3>${heading}</h3>
 
 </div>
