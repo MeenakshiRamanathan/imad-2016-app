@@ -15,7 +15,7 @@ var articles= {
 
 with 'real' content. This is required when, for example, the final text is not yet available. "`},
     content1:`<p>
-"Life would have been easier had it been possible for us to plan falling in love , More importantly, avoid falling in love...'Love is not 
+Life would have been easier had it been possible for us to plan falling in love , More importantly, avoid falling in love...'Love is not 
 
 for you,' she told herself. Inside, just like any girl,she desired to be loved.</p>
 
@@ -27,7 +27,7 @@ doesn't take permission. It's in its very nature to gatecrash into our lives Sta
 
 had.".According to the writer "The definition of love is changing, today if one's desires are not fulfilled with his/her partner, they 
 
-start searching that anywhere else."</p>
+start searching that anywhere else.</p>
 
 <p>Having an extra relationship is very common these days. In other words, one start having different partners for different 
 
