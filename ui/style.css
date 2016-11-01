@@ -58,8 +58,8 @@ h1{ color:#fff; margin:0; font-size:25px;}
     
     
 }
-.left{  background: #2e84a6 none repeat scroll 0 0;text-align:center;
-    float: right;
+.left{  background: #2e84a6 none repeat scroll 0 0;align:center;
+    float: left;
     min-height: 164px;
     padding: 17px;
     width: 500px;}
