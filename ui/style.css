@@ -5829,7 +5829,7 @@ button.close {
 
 body{ background:url(http://www.splitshire.com/wp-content/uploads/2016/07/SplitShire-180017-768x512.jpg) no-repeat;background-size:cover; font-family:arial;  margin: 0;
     padding: 0;}
-#wrapper{ background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+#wrapper{ background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
     margin: auto;
     overflow: hidden;
     padding:0 26px 15px;
