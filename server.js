@@ -17,7 +17,8 @@ app.use(morgan('combined'));
 var articles= {
      'articleOne' :{title:'Article1||Meenakshi Ramanathan',
     heading:'This  love that feels right',
-    img:'url(http://www.splitshire.com/wp-content/uploads/2016/07/SplitShire-180017-768x512.jpg)',
+    img: {url:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSZId01rfLgcXAnxZ0ZfxabBdAAfluOs2U5gonLxtTO7WQKZv55ZA',props:[],else:'val'},
+
 
     
     
