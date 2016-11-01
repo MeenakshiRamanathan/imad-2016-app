@@ -17,6 +17,8 @@ app.use(morgan('combined'));
 var articles= {
      'articleOne' :{title:'Article1||Meenakshi Ramanathan',
     heading:'This  love that feels right',
+    img:{url:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSZId01rfLgcXAnxZ0ZfxabBdAAfluOs2U5gonLxtTO7WQKZv55ZA',props:[],else:'val'},
+
     date:'October 10',
     
     content:`"Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled 
@@ -66,6 +68,7 @@ function createTemplate(data){
     var title=data.title;
     
     var heading=data.heading;
+    var img=data.img;
     var content=data.content;
     
     var content1=data.content1;
@@ -92,6 +95,9 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <div class="title">
 <h3>${heading}</h3>
 
+</div>
+<div>
+${img}
 </div>
 
 
