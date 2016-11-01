@@ -37,7 +37,7 @@ function createTemplate(data){
     var content=data.content;
     
 
-}
+
     
     
 var htmlTemplate = `<html> 
@@ -85,7 +85,7 @@ app.get('/', function (req, res) {
 });
 
 
-});
+
 
 
 app.get('/:articleName',function(req,res){
