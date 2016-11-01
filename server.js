@@ -75,7 +75,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <link rel="stylesheet" href="bootstrap.css"/>
 </head>
 <body>
-body{ background:url(http://www.splitshire.com/wp-content/uploads/2016/07/SplitShire-180017-768x512.jpg) no-repeat;background-size:cover
+
 <div class="container">
 <div id="wrapper">
 
