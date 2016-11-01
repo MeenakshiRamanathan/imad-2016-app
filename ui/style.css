@@ -51,7 +51,7 @@ h1{ color:#fff; margin:0; font-size:25px;}
 .about h2{ background:#303030; color:#fff; font-size:34px; text-transform:uppercase; padding:16px 35px; display:inline-block; margin:0px;}
 .con{ width:100%;}
 .con p {
-    
+    text-align:center;
     color: #fff;
     font-size: 14px;
     line-height: 21px;
