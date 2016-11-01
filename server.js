@@ -32,10 +32,10 @@ start searching that anywhere else.</p>
 <p>Having an extra relationship is very common these days. In other words, one start having different partners for different 
 
 expectations.
- </p>`},
+ </p>`,
  content2:`<p>"Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled 
 
-with 'real' content. This is required when, for example, the final text is not yet available."</p>`,
+with 'real' content. This is required when, for example, the final text is not yet available."</p>`},
      
      'articleTwo' :{title:'Article2||Meenakshi Ramanathan',
     heading:'Article-Two',
