@@ -17,7 +17,7 @@ app.use(morgan('combined'));
 var articles= {
      'articleOne' :{title:'Article1||Meenakshi Ramanathan',
     heading:'This  love that feels right',
-    img:{src:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTFueFEmogzsp4eack72oXVvJwRvTM5P7Qq2RszSk2tZqEeKnD7MPMqV8g",alt:"alternate text for image2"},
+    img:{src:"https://kbimages1-a.akamaihd.net/43db11f0-3085-4f63-90eb-43d95d0a2647/166/300/False/this-love-that-feels-right.jpg"},
    
 
 
@@ -99,9 +99,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <h3>${heading}</h3>
 
 </div>
-<div>
-<img src="${img.src}" alt="${img.alt}" />
-</div>
+
 
 
 
@@ -121,10 +119,10 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 </div>
 <div class="col-md-6 col-sm-6" style="background:#2E84A6; padding:15px">
 
-<div class="banner"><center>
-<img src="https://kbimages1-a.akamaihd.net/43db11f0-3085-4f63-90eb-43d95d0a2647/166/300/False/this-love-that-feels-
-
-right.jpg"/></center>
+<div class="banner">
+<center>
+<img src="${img.src}" alt="${img.alt}" />
+</center>
 </div>
 <div class="content">
 <p>
