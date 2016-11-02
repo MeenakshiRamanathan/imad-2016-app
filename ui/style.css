@@ -84,7 +84,7 @@ img{border:none; width:100%;}
 .banner{ margin-bottom:20px}
 .banner img{ border-radius:5px;height :200px;width:200px;left:150px}
 .content{ margin-bottom:0}
-.content p{text-align:justify; color:#fff;font-family: "Lucida Calligraphy";font-size:14px}
+.content p{text-align:justify; color:#fff;font-family: "Monotype Corsiva";font-size:14px}
 .user img {
     width: 21%;
 }
@@ -95,7 +95,7 @@ img{border:none; width:100%;}
     font-family:Monotype Corsiva;
     font-size:14px;
 }
-.user h6{ margin-bottom:20px;font-family:Monotype Corsiva;font-size:14px}
+.user h6{ margin-bottom:20px;font-family:"Monotype Corsiva";font-size:14px}
 textarea {
     font-family: "Monotype Corsiva";
      display: inline-flex;
