@@ -93,8 +93,9 @@ img{border:none; width:100%;}
 .form label {
     color: #fff;
     font-family:Monotype Corsiva;
+    font-size:14px;
 }
-.user h6{ margin-bottom:20px;font-family:Monotype Corsiva;}
+.user h6{ margin-bottom:20px;font-family:Monotype Corsiva;font-size:14px}
 textarea {
     font-family: "Monotype Corsiva";
      display: inline-flex;
