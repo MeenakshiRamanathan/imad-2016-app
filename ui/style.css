@@ -95,6 +95,7 @@ img{border:none; width:100%;}
 }
 .user{ margin-bottom:20px}
 textarea {
+    font-family: "Monotype Corsiva";
      display: inline-flex;
     height: 100px;
     margin: 0 0 11px !important;
