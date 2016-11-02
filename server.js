@@ -17,6 +17,7 @@ app.use(morgan('combined'));
 var articles= {
      'articleOne' :{title:'Article1||Meenakshi Ramanathan',
     heading:'This  love that feels right',
+    img:{src:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTFueFEmogzsp4eack72oXVvJwRvTM5P7Qq2RszSk2tZqEeKnD7MPMqV8g",alt:"alternate text for image2"},
    
 
 
@@ -70,7 +71,7 @@ function createTemplate(data){
     var title=data.title;
     
     var heading=data.heading;
-    
+    var img=data.img;
     var content=data.content;
     
     var content1=data.content1;
@@ -97,6 +98,9 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <div class="title">
 <h3>${heading}</h3>
 
+</div>
+<div>
+<img src="${img.src}" alt="${img.alt}" />
 </div>
 
 
