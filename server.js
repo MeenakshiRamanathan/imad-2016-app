@@ -187,6 +187,10 @@ app.get('/login.html', function (req, res) {
 });
 
 
+app.get('/Home.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'Home.html'));
+});
+
 
 app.get('/:articleName',function(req,res){
     
