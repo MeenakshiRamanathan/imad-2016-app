@@ -55,7 +55,7 @@ var articles= {
     
     {title:'Article4||Meenakshi Ramanathan',
     heading:'Article-Four',
-    img:{src:"https://kbimages1-a.akamaihd.net/43db11f0-3085-4f63-90eb-43d95d0a2647/166/300/False/this-love-that-feels-right.jpg"},                     
+    img:{src:"https://upload.wikimedia.org/wikipedia/en/4/44/Revolution_2020.jpg"},                     
     content:`Revolution 2020: Love, Corruption, Ambition is a 2011 novel by Chetan Bhagat Its story is concerned with a love triangle, corruption and a journey of self-discovery. R2020 has addressed the issue of how private coaching institutions exploit aspiring engineering students. How parents put their lifetime's earnings on stake for these classes so that their children can crack engineering exams and change the fortune of the family.`,
     content1: `<p> Once upon a time, in small-town India, there lived two intelligent boys.One wanted to use his intelligence to make money.One wanted to use his intelligence to create a revolution.The problem was, they both loved the same girl.Welcome to Revolution 2020. A story about childhood friends Gopal, Raghav and Aarti who struggle to find success and love in Varanasi. However, it isnâ€™t easy to achieve this in an unfair society that rewards the corrupt. As Gopal gives in to the system, and Raghav fights it, who will win?</p>`,
     content2: `Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians.`}
@@ -109,47 +109,8 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 ${content1}
  </p>
  </div>
-<section class="star rating">
-        <input type="radio" name="example" class="rating" value="1" />
-        <input type="radio" name="example" class="rating" value="2" />
-        <input type="radio" name="example" class="rating" value="3" />
-        <input type="radio" name="example" class="rating" value="4" />
-        <input type="radio" name="example" class="rating" value="5" />
-    </section>
-        
-    <section>
-    <h2>How to use</h2>
-        <h3>Html</h3>
-        <pre>
-&lt;div class="container"&gt;
-    &lt;input type="radio" name="example" class="rating" value="1" /&gt;
-    &lt;input type="radio" name="example" class="rating" value="2" /&gt;
-    &lt;input type="radio" name="example" class="rating" value="3" /&gt;
-    &lt;input type="radio" name="example" class="rating" value="4" /&gt;
-    &lt;input type="radio" name="example" class="rating" value="5" /&gt;
-&lt;/div&gt;
-        </pre>
- 
-        <h3>Simple usage</h3>
-        <pre>
-$('.container').rating();
-        </pre>
-        <h3>Using with callback method</h3>
-        <pre>
-$('.container').rating(function(vote, event){
-    // console.log(vote, event);
-});
-        </pre>
-        <h3>Example of using ajax</h3>
-        <pre>
-$('.container').rating(function(vote, event){
-    // write your ajax code here
-    // For example;
-    // $.get(document.URL, {vote: vote});
-});
-        </pre>
 
-   </section>
+       
 
 
 </div>
