@@ -19,18 +19,13 @@ var articles= {
     
     {title:'Article1||Meenakshi Ramanathan',
     heading:'This  love that feels right',
-    img:{src:"https://kbimages1-a.akamaihd.net/43db11f0-3085-4f63-90eb-43d95d0a2647/166/300/False/this-love-that-feels-right.jpg"},
-    content:`"Once upon a time, it was enough to be compatible to live together companionably, <br/>raise children and struggle together �<br/> now, the expectations of both men and women from marriage has changed. Everyone wants a grand love story.<br/>What will you do if you find true love,but it's already too late? "`,
+    img:{src:"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQKLUk9SFEgNbF98cIxebe-vHBBh4j9oWCy6hgR3n8y7coFv_b3"},
+    content:`"What Young India Wants is a non-fiction book by Chetan Bhagat. A compilation of his speeches and essays, it focuses on Indian society, politics the youth. The book revolves around Bhagat's thoughts and innovations on how to improve the Indian economy through social reforms.  "`,
     content1:`<p>
-    Life would have been easier had it been possible for us to plan falling in love , More importantly, avoid falling in love...'Love is not 
-    for you,' she told herself. Inside, just like any girl,she desired to be loved.</p>
-    <p>She had accepted her life the way it was, till one day love showed up unannounced, uninvited! That's the thing with love. It 
-    doesn't take permission. It's in its very nature to gatecrash into our lives Standing face-to-face with love, she finds herself asking, 
-    'Is this love right?'...The answer is not simple. It never was...This intense love story will shake every belief you've ever 
-    had.".According to the writer "The definition of love is changing, today if one's desires are not fulfilled with his/her partner, they 
-    start searching that anywhere else.</p><p>Having an extra relationship is very common these days. In other words, one start having different partners for different 
-    expectations. </p>`,
-    content2:`<p>"Ravinder Singh, the author of six bestselling novels is very well known and has a great reader base from his first novel.I Too Had A Love Story”. Ravinder did his MBA and working as a Sr. Program Manager at Microsoft when he left his job to become a full-time author.</p><p>His first novel “I Too Had A Love Story” is based on his real life and written with the memories of his Girlfriend who died in 2007 before their engagement."</p>`},
+    In his latest book, What Young India Wants, Chetan Bhagat asks hard questions, demands answers and presents solutions for a better, more prosperous India.
+    Why do our students regularly commit suicide?Why is there so much corruption in India?Cant our political parties ever work together?Does our vote make any difference at all?We love our India, but shouldnt some things be different?All of us have asked these questions at some time or the other. So does Chetan Bhagat, Indias most loved writer, in What Young India Wants, his first book of non-fiction.
+    What Young India Wants is based on Chetan Bhagats vast experience as a very successful writer and motivational speaker. In clear, simple prose, and with great insight, he analyses some of the complex issues facing modern India, offers solutions and invites discussion on them. And, at the end, he asks this important question: Unless we are all in agreement on what it is going to take to make our country better, how will things ever change? Non-fiction If you want to understand contemporary India, the problems that face it, and want to be a part of the solution, What Young India Wants is the book for you </p>`,
+    content2:`<p>"Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians"</p>`},
     
 
  'articleTwo' :
@@ -39,10 +34,10 @@ var articles= {
     heading:'Article-Two',
     img:{src:"https://lh4.ggpht.com/-s3IohZsL0g8/V7xOZ9EIEMI/AAAAAACp7kQ/DRXp9wZ5XcQ/w1000-h800/celebritysays-one-indian-girl-preorders-are-off-the-charts-book-your-copy-to.jpg"},
     content:'Unlike his previous books, Bhagat chose a female protagonist and written the story in female first person. A girl who is well educated, Intelligent and successful in his life. Unlike other girls, she has an opinion on everything.',
-    content1: ` <p> The Story starts with the wedding scene of Radhika Mehta. It’s the first destination wedding in Mehta�s family. Everywhere is a pleasant chaos of the wedding preparations and relatives. Goa Marriott is the hotel where both families are planned to stay.But in the last minute, Goa’s CM came in the hotel for an event due to which Hotel staff reduced the no. of rooms booked by the Mehta’s. And then the pleasant chaos converts into a horrible mess.
-     Radhika suggested a relocation for the boys side but her father and relatives denied. And the logic behind denial is that “You can't ask boy’s side to adjust because they are The Boy�s side.
-     Really? Is that so? But in India, it’s like our traditions to expect adjustment from females. In this book, the author tried to make you understand the female point of view.
-     As the author says that women are mysterious and no one can actually understand what they really think. He added that� I have wanted to write a book in female first person for the past several years. Not only that, I wanted that book to be about women and deal with feminism.</p>`,
+    content1: ` <p> The Story starts with the wedding scene of Radhika Mehta. Itâ€™s the first destination wedding in Mehta™s family. Everywhere is a pleasant chaos of the wedding preparations and relatives. Goa Marriott is the hotel where both families are planned to stay.But in the last minute, Goaâ€™s CM came in the hotel for an event due to which Hotel staff reduced the no. of rooms booked by the Mehtaâ€™s. And then the pleasant chaos converts into a horrible mess.
+     Radhika suggested a relocation for the boys side but her father and relatives denied. And the logic behind denial is that â€œYou can't ask boyâ€™s side to adjust because they are The Boy™s side.
+     Really? Is that so? But in India, itâ€™s like our traditions to expect adjustment from females. In this book, the author tried to make you understand the female point of view.
+     As the author says that women are mysterious and no one can actually understand what they really think. He added that I have wanted to write a book in female first person for the past several years. Not only that, I wanted that book to be about women and deal with feminism.</p>`,
      content2:`Chetan Bhagat announced his latest book One Indian Girl via tweeting it. He also shared the official teaser which you can watch below. One Indian Girl is the Ninth book of the author. His previous book Half Girlfriend is very well received by his readers and soon releasing as a movie.`,              },
        
  
@@ -62,7 +57,7 @@ var articles= {
     heading:'Article-Four',
     img:{src:"https://kbimages1-a.akamaihd.net/43db11f0-3085-4f63-90eb-43d95d0a2647/166/300/False/this-love-that-feels-right.jpg"},                     
     content:`Revolution 2020: Love, Corruption, Ambition is a 2011 novel by Chetan Bhagat Its story is concerned with a love triangle, corruption and a journey of self-discovery. R2020 has addressed the issue of how private coaching institutions exploit aspiring engineering students. How parents put their lifetime's earnings on stake for these classes so that their children can crack engineering exams and change the fortune of the family.`,
-    content1: `<p> Once upon a time, in small-town India, there lived two intelligent boys.One wanted to use his intelligence to make money.One wanted to use his intelligence to create a revolution.The problem was, they both loved the same girl.Welcome to Revolution 2020. A story about childhood friends Gopal, Raghav and Aarti who struggle to find success and love in Varanasi. However, it isn’t easy to achieve this in an unfair society that rewards the corrupt. As Gopal gives in to the system, and Raghav fights it, who will win?</p>`,
+    content1: `<p> Once upon a time, in small-town India, there lived two intelligent boys.One wanted to use his intelligence to make money.One wanted to use his intelligence to create a revolution.The problem was, they both loved the same girl.Welcome to Revolution 2020. A story about childhood friends Gopal, Raghav and Aarti who struggle to find success and love in Varanasi. However, it isnâ€™t easy to achieve this in an unfair society that rewards the corrupt. As Gopal gives in to the system, and Raghav fights it, who will win?</p>`,
     content2: `Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians.`}
 };
 
