@@ -1,56 +1,122 @@
 <!DOCTYPE html>
 <html>
 <style>
-@import "compass/css3";
+@import "bourbon";
 
-/* Martin Wolf CodePen Standard */
-
+body{
+margin:50px;
+  font-family:opensans;
+}
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 
-* {
+/*demo styles above*/
+
+$navigationbg :#e5e5e5;
+$level1bg     :#e5e5e5;
+$level2bg     :#e5e5e5;
+$verticalnavlinkcolor :#333;
+$verticalnavlinkcolor-hover :#000;
+$arrowcolor:#53c0ad;
+
+aside{
+width:150px;
+}
+
+.nav--vertical{
+  list-style-type:none;
   margin: 0;
   padding: 0;
-  @include box-sizing(border-box);
-}
-
-body {
-  padding: 3em 2em;
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-size: 1em;
-  line-height: 1;
-}
-
-/* END Martin Wolf CodePen Standard */
-
-
-$keycolor: rgb(190, 121, 13);
-$keycolor-transparent: rgba(190, 121, 13, .3);
-
-.site-nav {
-  text-align: center;
-}
-
-.nav-link {
-  display: inline-block;
-  margin-right: 20px;
-  color: #000;
-  font-weight: 600;
-  font-size: 1.1em;
-  line-height: 1.3;
-  text-decoration: none;
-  border-bottom: 1px solid $keycolor-transparent;
-  @include transition(.3s ease);
-  
-  &:hover, &:focus {
-    color: $keycolor;
-    border-bottom: 10px solid $keycolor-transparent;
+  a{
+  color:$verticalnavlinkcolor;
+    &:hover{
+    color:$verticalnavlinkcolor-hover;
+    }
   }
-  
-  &:active {
-    border-bottom: 20px solid $keycolor-transparent;
+  li{
+     position: relative;
+     display:block;
+    &.dropmenu{
+      ul{
+        display:none;
+      }
+    }
+    &.dropmenu:hover{
+      > ul{
+      display:block;
+      }
+    }
+      &.dropmenu:after{
+        content: "";
+        position: absolute;
+        right: 10px;
+        top: 40%;
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        border-left: 4px solid $arrowcolor;
+      }
+  }
+  >li{
+    a{
+      text-decoration:none;
+      padding:7px 10px;
+      display:block;
+      margin-bottom: 1px;;
+    }
+     ul{
+        list-style-type:none;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left:100%;
+      &.level1, &.level2{
+        min-width:150px;
+        top:0;
+        border-left: 1px solid #fff;
+      }
+       
+    }
   }
 }
 
+.nav--vertical{
+  li{
+    a{
+@include transition (all 0.2s ease-in-out);
+    }
+  }
+  > li{
+   > a{
+      background: $navigationbg;
+    }
+    .level1{
+      >li{
+        a{
+        background: $level1bg;
+        }
+      }
+    } 
+    .level2{
+      >li{
+        a{
+        background: $level2bg;
+        }
+      }
+    } 
+  }
+}
+.nav--vertical{
+  li:hover{
+    a{
+      background: #ccc;
+    }
+    li:hover{
+    > a{
+      background: #ccc;
+    }
+    }
+    
+  }
+}
 
 		
 
@@ -59,13 +125,45 @@ $keycolor-transparent: rgba(190, 121, 13, .3);
 
 
 <body><center>
-<nav class="site-nav"><ul>
- <li> <a class="nav-link" href="#">Home</a></li>
-  <li><a class="nav-link" href="#">Projects</a></li>
- <li> <a class="nav-link" href="#">About</a></li>
- <li> <a class="nav-link" href="#">Contact</a></li>
-  </ul>
-</nav>
+
+<ul class="nav nav--vertical">
+  <li class="dropmenu"><a href="#">Trades</a>
+      <ul class="level1">
+        <li><a href="#">lorem</a>       
+        <li class="dropmenu"><a href="#">Trades</a>
+          <ul class="level2">
+            <li><a href="#">lorem iklor</a></li>
+            <li><a href="#">ipsum</a></li>
+            <li><a href="#">dolor</a></li>
+            <li><a href="#">sit amit</a></li>
+          </ul>
+        </li>
+        <li><a href="#">ipsum</a></li>
+        <li><a href="#">dolor</a></li>
+        <li><a href="#">sit</a></li>
+      </ul>
+  </li>
+    <li><a href="#">Sectors</a></li>
+    <li><a href="#">State</a></li>
+    <li><a href="#">Course</a></li>
+    <li class="dropmenu"><a href="#">Job</a>
+      <ul class="level1">
+        <li><a href="#">lorem</a>       
+        <li class="dropmenu"><a href="#">Trades</a>
+          <ul class="level2">
+            <li><a href="#">lorem iklor</a></li>
+            <li><a href="#">ipsum</a></li>
+            <li><a href="#">dolor</a></li>
+            <li><a href="#">sit amit</a></li>
+          </ul>
+        </li>
+        <li><a href="#">ipsum</a></li>
+        <li><a href="#">dolor</a></li>
+        <li><a href="#">sit</a></li>
+      </ul>
+    </li>
+</ul>
+  
 </center>
 
 
