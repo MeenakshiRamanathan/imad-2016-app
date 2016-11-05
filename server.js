@@ -126,6 +126,7 @@ ${content1}
 <ul id="diaplay-comment">
 </ul>
 <script type="text/javascript" src="/ui/main.js">
+</script>
 </form>
 </div>
 </div>
