@@ -95,10 +95,10 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <div class="links">
 <h2>Some links are</h4>
 <ul>
-<li><a href="www.amazon.in">Amazon</a></li>
-<li><a href="www.snapdeal.com">Snapdeal</a></li>
-<li><a href="www.flipkart.com">Flipkart</a></li>
-<li><a href="">Myntra</a></li>
+<li><a href="http://amazon.in">Amazon</a></li>
+<li><a href="http://snapdeal.com">Snapdeal</a></li>
+<li><a href="http://flipkart.com">Flipkart</a></li>
+<li><a href="http://myntra.com">Myntra</a></li>
 </ul>
 </div>
 </div>
@@ -143,16 +143,9 @@ ${content1}
 return htmlTemplate
 }
 
-
-
-
-
-
-
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-
 
 var counter = 0;
 app.get('/counter', function (req, res) {
@@ -183,7 +176,6 @@ comments.push(comment);
 //to render those comments on the page
 });
 
-
 app.get('/:articleName',function(req,res){
     
     //articleName==articleOne
@@ -193,30 +185,17 @@ app.get('/:articleName',function(req,res){
     res.send(createTemplate(articles[articleName]));
 });
 
-
-
-
-
-
-
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
-
 
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
-
-
-
-
-
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
-
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
