@@ -73,66 +73,66 @@ function createTemplate(data){
 
 var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>${title}</title>
-<meta name="viewport" content="width-device-width ,  initial-scale=1"/>
-<link href="/ui/style.css" rel="stylesheet"/>
+    <title>${title}</title>
+        <meta name="viewport" content="width-device-width ,  initial-scale=1"/>
+        <link href="/ui/style.css" rel="stylesheet"/>
 </head>
-<body>
-<div class="container">
-<div id="wrapper">
-<div class="title">
-<h3>${heading}</h3>
-</div>
+    <body>
+        <div class="container">
+            <div id="wrapper">
+                <div class="title">
+                    <h3>${heading}</h3>
+                </div>
 <div class="col-md-3 col-sm-3">
-<div class="quotes">
-<p>${content}</p>
-</div>
-<div class="links">
-<h2>Some links are</h4>
-<ul>
-<li><a href="http://amazon.in">Amazon</a></li>
-<li><a href="http://snapdeal.com">Snapdeal</a></li>
-<li><a href="http://flipkart.com">Flipkart</a></li>
-<li><a href="http://myntra.com">Myntra</a></li>
-</ul>
-</div>
-</div>
-<div class="col-md-6 col-sm-6" style="background:#2E84A6; padding:15px">
+    <div class="quotes">
+        <p>${content}</p>
+    </div>
+        <div class="links">
+            <h2>Some links are</h4>
+                <ul>
+                    <li><a href="http://amazon.in">Amazon</a></li>
+                    <li><a href="http://snapdeal.com">Snapdeal</a></li>
+                    <li><a href="http://flipkart.com">Flipkart</a></li>
+                    <li><a href="http://myntra.com">Myntra</a></li>
+                </ul>
+            </div>
+        </div>
+    <div class="col-md-6 col-sm-6" style="background:#2E84A6; padding:15px">
 
-<div class="banner">
-<center>
-<img src="${img.src}" alt="${img.alt}" />
-</center>
+        <div class="banner">
+            <center>
+                <img src="${img.src}" alt="${img.alt}" />
+            </center>
+    </div>
+        <div class="content">
+            <p>
+                ${content1}
+            </p>
+    </div>
+        <div class="user">
+            <h6>User Rating: <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Star_rating_4.5_of_5.png"></h6>
+            <h6>Rate of Book: <span style="color:#990100">$100</span></h6>
+        </div>       
+    <div class="form">
+        <form>
+            <label>Tell us what you think </label>
+                <textarea placeholder="Write your comments here....!Don't forget to B-nice" name="comment" id="comment-article"></textarea>
+                <input type="submit" value="Submit" class="submit" id="article-comment"/>
+                <ul id="diaplay-comment">
+        </ul>
+            <script type="text/javascript" src="/ui/main.js">
+            </script>
+        <form>
+    </div>
 </div>
-<div class="content">
-<p>
-${content1}
- </p>
- </div>
-<div class="user">
-<h6>User Rating: <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Star_rating_4.5_of_5.png"></h6>
-<h6>Rate of Book: <span style="color:#990100">$100</span></h6>
-</div>       
-<div class="form">
-<form>
-<label>Tell us what you think </label>
-<textarea placeholder="Write your comments here....!Don't forget to B-nice" name="comment" id="comment-article"></textarea>
-<input type="submit" value="Submit" class="submit" id="article-comment"/>
-<ul id="diaplay-comment">
-</ul>
-<script type="text/javascript" src="/ui/main.js">
-</script>
-<form>
+    <div class="col-md-3 col-sm-3">
+        <div class="bio">
+            <img src="http://www.chetanbhagat.com/wp-content/uploads/chetan_bhagat_011.jpg" />
+        <p>${content2}</p>
+    </div>
 </div>
-</div>
-<div class="col-md-3 col-sm-3">
-<div class="bio">
-<img src="http://www.chetanbhagat.com/wp-content/uploads/chetan_bhagat_011.jpg" />
-<p>${content2}</p>
-</div>
-</div>
-</div></div>
-</body>
+    </div></div>
+    </body>
 </html>
 `;
 return htmlTemplate
