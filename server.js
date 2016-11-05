@@ -31,7 +31,7 @@ var articles= {
     start searching that anywhere else.</p><p>Having an extra relationship is very common these days. In other words, one start having different partners for different 
     expectations. </p>`,
     content2:`<p>"Ravinder Singh, the author of six bestselling novels is very well known and has a great reader base from his first novel.I Too Had A Love Story”. Ravinder did his MBA and working as a Sr. Program Manager at Microsoft when he left his job to become a full-time author.</p><p>His first novel “I Too Had A Love Story” is based on his real life and written with the memories of his Girlfriend who died in 2007 before their engagement."</p>`},
-    img1:{src:"https://upload.wikimedia.org/wikipedia/commons/5/54/Ravinder_Singh.jpg"},
+    imgs:{src:"https://upload.wikimedia.org/wikipedia/commons/5/54/Ravinder_Singh.jpg"},
 
  'articleTwo' :
     
@@ -74,7 +74,7 @@ function createTemplate(data){
     var content=data.content;
     var content1=data.content1;
     var content2=data.content2;
-    var img1=data.img1;
+    var imgs=data.imgs;
 
 var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -95,10 +95,10 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <div class="links">
 <h2>Some links are</h4>
 <ul>
-<li><a href="">Amazon</a></li>
-<li><a href="">Snapdeal</a></li>
-<li><a href="">Flipkart</a></li>
-<li><a href="">Lorem Imposem</a></li>
+<li><a href="www.amazon.in">Amazon</a></li>
+<li><a href="www.snapdeal.com">Snapdeal</a></li>
+<li><a href="www.flipkart.com">Flipkart</a></li>
+<li><a href="">Myntra</a></li>
 </ul>
 </div>
 </div>
@@ -128,7 +128,7 @@ ${content1}
 </div>
 <div class="col-md-3 col-sm-3">
 <div class="bio">
-<img1 src="${img1.src}" alt="${img1.alt}" />
+<img src="${imgs.src}" alt="${imgs.alt}" />
 <p>${content2}</p>
 </div>
 </div>
