@@ -109,14 +109,10 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 ${content1}
  </p>
  </div>
-
 <div class="user">
 <h6>User Rating: <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Star_rating_4.5_of_5.png"></h6>
 <h6>Rate of Book: <span style="color:#990100">$100</span></h6>
 </div>       
-
-
-
 <div class="form">
 <form>
 <label>Tell us what you think </label>
@@ -128,12 +124,6 @@ ${content1}
 </script>
 <form>
 </div>
-
-
-
-
-
-
 </div>
 <div class="col-md-3 col-sm-3">
 <div class="bio">
@@ -148,15 +138,18 @@ ${content1}
 return htmlTemplate
 }
 
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+
 
 var counter = 0;
 app.get('/counter', function (req, res) {
    counter = counter + 1;
    res.send(counter.toString());
 }); 
+
 
 var comments=[];
 app.get('/submit-comment',function(req,res){
@@ -192,17 +185,21 @@ app.get('/:articleName',function(req,res){
     res.send(createTemplate(articles[articleName]));
 });
 
+
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
+
 
 app.get('/ui/main.js', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'main.js'));
 });
 
+
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
+
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
