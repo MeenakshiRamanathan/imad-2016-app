@@ -31,7 +31,7 @@ var articles= {
     start searching that anywhere else.</p><p>Having an extra relationship is very common these days. In other words, one start having different partners for different 
     expectations. </p>`,
     content2:`<p>"Ravinder Singh, the author of six bestselling novels is very well known and has a great reader base from his first novel.I Too Had A Love Story”. Ravinder did his MBA and working as a Sr. Program Manager at Microsoft when he left his job to become a full-time author.</p><p>His first novel “I Too Had A Love Story” is based on his real life and written with the memories of his Girlfriend who died in 2007 before their engagement."</p>`},
-    imgs:{src:"https://upload.wikimedia.org/wikipedia/commons/5/54/Ravinder_Singh.jpg"},
+    
 
  'articleTwo' :
     
@@ -44,7 +44,7 @@ var articles= {
      Really? Is that so? But in India, it’s like our traditions to expect adjustment from females. In this book, the author tried to make you understand the female point of view.
      As the author says that women are mysterious and no one can actually understand what they really think. He added that� I have wanted to write a book in female first person for the past several years. Not only that, I wanted that book to be about women and deal with feminism.</p>`,
      content2:`Chetan Bhagat announced his latest book One Indian Girl via tweeting it. He also shared the official teaser which you can watch below. One Indian Girl is the Ninth book of the author. His previous book Half Girlfriend is very well received by his readers and soon releasing as a movie.`,              },
-     img1:{src:"https://pbs.twimg.com/profile_images/522590098320142336/K70JqZ_E_400x400.jpeg"},   
+       
  
  'articleThree':
     
@@ -54,7 +54,7 @@ var articles= {
     content:'Half Girlfriend is an Indian English coming of age, young adult romance novel by Indian author Chetan Bhagat. The novel, set in rural Bihar, New Delhi, Patna, and New York, is the story of a Bihari boy in quest of winning over the girl he loves.',
     content1: `<p> Once upon a time, there was a Bihari boy called Madhav. He fell in love with a girl from Delhi called Riya. Madhav didn't speak English well. Riya did. Madhav wanted a relationship. Riya didn't. Riya just wanted friendship. Madhav didn't. Riya suggested a compromise. She agreed to be his half girlfriend. From the author of the blockbuster novels Five Point Someone, One Night @ the Call Center, The 3 Mistakes of My Life, 2 States and Revolution 2020 comes a simple and beautiful love story that will touch your heart and inspire you to chase your dreams.</p>`,
     content2:`Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians.`,}    ,  
-    img1:{src:"http://www.chetanbhagat.com/wp-content/uploads/chetan_bhagat_011.jpg"},     
+    
   
 'articleFour':
     
@@ -74,7 +74,7 @@ function createTemplate(data){
     var content=data.content;
     var content1=data.content1;
     var content2=data.content2;
-    var imgs=data.imgs;
+    
 
 var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -128,7 +128,7 @@ ${content1}
 </div>
 <div class="col-md-3 col-sm-3">
 <div class="bio">
-<img src="${imgs.src}" alt="${imgs.alt}" />
+<img src="" />
 <p>${content2}</p>
 </div>
 </div>
