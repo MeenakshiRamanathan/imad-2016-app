@@ -20,7 +20,7 @@ var articles= {
     {title:'Article1||Meenakshi Ramanathan',
     heading:'This  love that feels right',
     img:{src:"https://kbimages1-a.akamaihd.net/43db11f0-3085-4f63-90eb-43d95d0a2647/166/300/False/this-love-that-feels-right.jpg"},
-    content:`"Once upon a time, it was enough to be compatible to live together companionably, <br/>raise children and struggle together –<br/> now, the expectations of both men and women from marriage has changed. Everyone wants a grand love story.<br/>What will you do if you find true love,but it's already too late? "`,
+    content:`"Once upon a time, it was enough to be compatible to live together companionably, <br/>raise children and struggle together �<br/> now, the expectations of both men and women from marriage has changed. Everyone wants a grand love story.<br/>What will you do if you find true love,but it's already too late? "`,
     content1:`<p>
     Life would have been easier had it been possible for us to plan falling in love , More importantly, avoid falling in love...'Love is not 
     for you,' she told herself. Inside, just like any girl,she desired to be loved.</p>
@@ -30,7 +30,7 @@ var articles= {
     had.".According to the writer "The definition of love is changing, today if one's desires are not fulfilled with his/her partner, they 
     start searching that anywhere else.</p><p>Having an extra relationship is very common these days. In other words, one start having different partners for different 
     expectations. </p>`,
-    content2:`<p>"Ravinder Singh, the author of six bestselling novels is very well known and has a great reader base from his first novel “I Too Had A Love Story”. Ravinder did his MBA and working as a Sr. Program Manager at Microsoft when he left his job to become a full-time author.</p><p>His first novel “I Too Had A Love Story” is based on his real life and written with the memories of his Girlfriend who died in 2007 before their engagement."</p>`},
+    content2:`<p>"Ravinder Singh, the author of six bestselling novels is very well known and has a great reader base from his first novel.I Too Had A Love Story”. Ravinder did his MBA and working as a Sr. Program Manager at Microsoft when he left his job to become a full-time author.</p><p>His first novel “I Too Had A Love Story” is based on his real life and written with the memories of his Girlfriend who died in 2007 before their engagement."</p>`},
     img1:{src:"https://upload.wikimedia.org/wikipedia/commons/5/54/Ravinder_Singh.jpg"},
 
  'articleTwo' :
@@ -39,10 +39,10 @@ var articles= {
     heading:'Article-Two',
     img:{src:"https://lh4.ggpht.com/-s3IohZsL0g8/V7xOZ9EIEMI/AAAAAACp7kQ/DRXp9wZ5XcQ/w1000-h800/celebritysays-one-indian-girl-preorders-are-off-the-charts-book-your-copy-to.jpg"},
     content:'Unlike his previous books, Bhagat chose a female protagonist and written the story in female first person. A girl who is well educated, Intelligent and successful in his life. Unlike other girls, she has an opinion on everything.',
-    content1: ` <p> The Story starts with the wedding scene of Radhika Mehta. It’s the first destination wedding in Mehta’s family. Everywhere is a pleasant chaos of the wedding preparations and relatives. Goa Marriott is the hotel where both families are planned to stay.But in the last minute, Goa’s CM came in the hotel for an event due to which Hotel staff reduced the no. of rooms booked by the Mehta’s. And then the pleasant chaos converts into a horrible mess.
-     Radhika suggested a relocation for the boy’s side but her father and relatives denied. And the logic behind denial is that “You can’t ask boy’s side to adjust because they are The Boy’s side.”
+    content1: ` <p> The Story starts with the wedding scene of Radhika Mehta. It’s the first destination wedding in Mehta�s family. Everywhere is a pleasant chaos of the wedding preparations and relatives. Goa Marriott is the hotel where both families are planned to stay.But in the last minute, Goa’s CM came in the hotel for an event due to which Hotel staff reduced the no. of rooms booked by the Mehta’s. And then the pleasant chaos converts into a horrible mess.
+     Radhika suggested a relocation for the boys side but her father and relatives denied. And the logic behind denial is that “You can't ask boy’s side to adjust because they are The Boy�s side.
      Really? Is that so? But in India, it’s like our traditions to expect adjustment from females. In this book, the author tried to make you understand the female point of view.
-     As the author says that women are mysterious and no one can actually understand what they really think. He added that ” I have wanted to write a book in female first person for the past several years. Not only that, I wanted that book to be about women and deal with feminism.</p>`,
+     As the author says that women are mysterious and no one can actually understand what they really think. He added that� I have wanted to write a book in female first person for the past several years. Not only that, I wanted that book to be about women and deal with feminism.</p>`,
      content2:`Chetan Bhagat announced his latest book One Indian Girl via tweeting it. He also shared the official teaser which you can watch below. One Indian Girl is the Ninth book of the author. His previous book Half Girlfriend is very well received by his readers and soon releasing as a movie.`,              },
      img1:{src:"https://pbs.twimg.com/profile_images/522590098320142336/K70JqZ_E_400x400.jpeg"},   
  
