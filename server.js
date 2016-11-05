@@ -183,7 +183,7 @@ comments.push(comment);
 //to render those comments on the page
 });
 app.get('/login.html', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'login.html'));
+  res.sendFile(path.join(__dirname, 'login.html'));
 });
 
 
