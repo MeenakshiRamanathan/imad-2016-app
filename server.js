@@ -44,7 +44,7 @@ var articles= {
      Really? Is that so? But in India, it’s like our traditions to expect adjustment from females. In this book, the author tried to make you understand the female point of view.
      As the author says that women are mysterious and no one can actually understand what they really think. He added that ” I have wanted to write a book in female first person for the past several years. Not only that, I wanted that book to be about women and deal with feminism.</p>`,
      content2:`Chetan Bhagat announced his latest book One Indian Girl via tweeting it. He also shared the official teaser which you can watch below. One Indian Girl is the Ninth book of the author. His previous book Half Girlfriend is very well received by his readers and soon releasing as a movie.`,              },
-     img1:{src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Chetan_Bhagat%2C_India.jpg/220px-Chetan_Bhagat%2C_India.jpg"},   
+     img1:{src:"https://pbs.twimg.com/profile_images/522590098320142336/K70JqZ_E_400x400.jpeg"},   
  
  'articleThree':
     
@@ -54,7 +54,7 @@ var articles= {
     content:'Half Girlfriend is an Indian English coming of age, young adult romance novel by Indian author Chetan Bhagat. The novel, set in rural Bihar, New Delhi, Patna, and New York, is the story of a Bihari boy in quest of winning over the girl he loves.',
     content1: `<p> Once upon a time, there was a Bihari boy called Madhav. He fell in love with a girl from Delhi called Riya. Madhav didn't speak English well. Riya did. Madhav wanted a relationship. Riya didn't. Riya just wanted friendship. Madhav didn't. Riya suggested a compromise. She agreed to be his half girlfriend. From the author of the blockbuster novels Five Point Someone, One Night @ the Call Center, The 3 Mistakes of My Life, 2 States and Revolution 2020 comes a simple and beautiful love story that will touch your heart and inspire you to chase your dreams.</p>`,
     content2:`Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians.`,}    ,  
-    img1:{src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Chetan_Bhagat%2C_India.jpg/220px-Chetan_Bhagat%2C_India.jpg"},     
+    img1:{src:"http://www.chetanbhagat.com/wp-content/uploads/chetan_bhagat_011.jpg"},     
   
 'articleFour':
     
@@ -64,7 +64,6 @@ var articles= {
     content:`Revolution 2020: Love, Corruption, Ambition is a 2011 novel by Chetan Bhagat Its story is concerned with a love triangle, corruption and a journey of self-discovery. R2020 has addressed the issue of how private coaching institutions exploit aspiring engineering students. How parents put their lifetime's earnings on stake for these classes so that their children can crack engineering exams and change the fortune of the family.`,
     content1: `<p> Once upon a time, in small-town India, there lived two intelligent boys.One wanted to use his intelligence to make money.One wanted to use his intelligence to create a revolution.The problem was, they both loved the same girl.Welcome to Revolution 2020. A story about childhood friends Gopal, Raghav and Aarti who struggle to find success and love in Varanasi. However, it isn’t easy to achieve this in an unfair society that rewards the corrupt. As Gopal gives in to the system, and Raghav fights it, who will win?</p>`,
     content2: `Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians.`}
-    
 };
 
 function createTemplate(data){
