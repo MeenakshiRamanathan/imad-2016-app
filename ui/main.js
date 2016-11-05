@@ -26,7 +26,7 @@ var request = new XMLHttpRequest();
 // making comments
  
 var submit=document.getElementById("comment-btn");
-if (submit != undefined) {
+if (submit !== undefined) {
 submit.onclick = function(){
 
 var request = new XMLHttpRequest();
@@ -61,7 +61,7 @@ var request = new XMLHttpRequest();
 }
 
 var login=document.getElementById("login-submit");
-if (login != undefined) {
+if (login !== undefined) {
 login.onclick = function(){
 var request = new XMLHttpRequest();
  alert ("ok");
@@ -91,7 +91,7 @@ request.send(null);
 // article comments
 
 var buttn=document.getElementById("article-comment");
-if (buttn != undefined) {
+if (buttn !== undefined) {
 buttn.onclick = function(){
 ALERT("HI");
 var request = new XMLHttpRequest();
