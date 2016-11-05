@@ -121,9 +121,12 @@ ${content1}
 <div class="form">
 <form>
 <label>Tell us what you think </label>
-<textarea placeholder="Write your comments here....!Don't forget to B-nice"></textarea>
-<input type="submit" value="Submit" class="submit"/>
-<form>
+<textarea placeholder="Write your comments here....!Don't forget to B-nice" name="comment" id="comment-article"></textarea>
+<input type="submit" value="Submit" class="submit" id="article-comment"/>
+<ul id="diaplay-comment">
+</ul>
+<script type="text/javascript" src="/ui/main.js">
+</form>
 </div>
 </div>
 <div class="col-md-3 col-sm-3">
