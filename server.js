@@ -156,6 +156,29 @@ app.get('/counter', function (req, res) {
    res.send(counter.toString());
 }); 
 
+var comments=[];
+app.get('/submit-comment',function(req,res){
+//to get the comments
+var comment=req.query.comment;
+comments.push(comment);
+//console.log('comments is: ',comment);
+ res.send(JSON.stringify(comments));
+
+//to render those comments on the page
+});
+
+
+var comments=[];
+app.get('/article-comment',function(req,res){
+//to get the comments
+var comment=req.query.comment;
+comments.push(comment);
+//console.log('comments is: ',comment);
+ res.send(JSON.stringify(comments));
+
+//to render those comments on the page
+});
+
 
 app.get('/:articleName',function(req,res){
     
