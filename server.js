@@ -15,56 +15,56 @@ app.use(morgan('combined'));
 
 
 var articles= {
-     'articleOne' :{title:'Article1||Meenakshi Ramanathan',
+ 'articleOne' :
+    
+    {title:'Article1||Meenakshi Ramanathan',
     heading:'This  love that feels right',
     img:{src:"https://kbimages1-a.akamaihd.net/43db11f0-3085-4f63-90eb-43d95d0a2647/166/300/False/this-love-that-feels-right.jpg"},
-   
-
-
-    
-    
-    content:`"Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled 
-
-with 'real' content. This is required when, for example, the final text is not yet available. "`,
+    content:`"Once upon a time, it was enough to be compatible to live together companionably, <br/>raise children and struggle together –<br/> now, the expectations of both men and women from marriage has changed. Everyone wants a grand love story.<br/>What will you do if you find true love,but it's already too late? "`,
     content1:`<p>
-Life would have been easier had it been possible for us to plan falling in love , More importantly, avoid falling in love...'Love is not 
+    Life would have been easier had it been possible for us to plan falling in love , More importantly, avoid falling in love...'Love is not 
+    for you,' she told herself. Inside, just like any girl,she desired to be loved.</p>
+    <p>She had accepted her life the way it was, till one day love showed up unannounced, uninvited! That's the thing with love. It 
+    doesn't take permission. It's in its very nature to gatecrash into our lives Standing face-to-face with love, she finds herself asking, 
+    'Is this love right?'...The answer is not simple. It never was...This intense love story will shake every belief you've ever 
+    had.".According to the writer "The definition of love is changing, today if one's desires are not fulfilled with his/her partner, they 
+    start searching that anywhere else.</p><p>Having an extra relationship is very common these days. In other words, one start having different partners for different 
+    expectations. </p>`,
+    content2:`<p>"Ravinder Singh, the author of six bestselling novels is very well known and has a great reader base from his first novel “I Too Had A Love Story”. Ravinder did his MBA and working as a Sr. Program Manager at Microsoft when he left his job to become a full-time author.</p><p>His first novel “I Too Had A Love Story” is based on his real life and written with the memories of his Girlfriend who died in 2007 before their engagement."</p>`},
+    img1:{src:"https://upload.wikimedia.org/wikipedia/commons/5/54/Ravinder_Singh.jpg"},
 
-for you,' she told herself. Inside, just like any girl,she desired to be loved.</p>
-
-<p>She had accepted her life the way it was, till one day love showed up unannounced, uninvited! That's the thing with love. It 
-
-doesn't take permission. It's in its very nature to gatecrash into our lives Standing face-to-face with love, she finds herself asking, 
-
-'Is this love right?'...The answer is not simple. It never was...This intense love story will shake every belief you've ever 
-
-had.".According to the writer "The definition of love is changing, today if one's desires are not fulfilled with his/her partner, they 
-
-start searching that anywhere else.</p>
-
-<p>Having an extra relationship is very common these days. In other words, one start having different partners for different 
-
-expectations.
- </p>`,
- content2:`<p>"Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled 
-
-with 'real' content. This is required when, for example, the final text is not yet available."</p>`},
-     
-     'articleTwo' :{title:'Article2||Meenakshi Ramanathan',
+ 'articleTwo' :
+    
+    {title:'Article2||Meenakshi Ramanathan',
     heading:'Article-Two',
+    img:{src:"https://lh4.ggpht.com/-s3IohZsL0g8/V7xOZ9EIEMI/AAAAAACp7kQ/DRXp9wZ5XcQ/w1000-h800/celebritysays-one-indian-girl-preorders-are-off-the-charts-book-your-copy-to.jpg"},
+    content:'Unlike his previous books, Bhagat chose a female protagonist and written the story in female first person. A girl who is well educated, Intelligent and successful in his life. Unlike other girls, she has an opinion on everything.',
+    content1: ` <p> The Story starts with the wedding scene of Radhika Mehta. It’s the first destination wedding in Mehta’s family. Everywhere is a pleasant chaos of the wedding preparations and relatives. Goa Marriott is the hotel where both families are planned to stay.But in the last minute, Goa’s CM came in the hotel for an event due to which Hotel staff reduced the no. of rooms booked by the Mehta’s. And then the pleasant chaos converts into a horrible mess.
+     Radhika suggested a relocation for the boy’s side but her father and relatives denied. And the logic behind denial is that “You can’t ask boy’s side to adjust because they are The Boy’s side.”
+     Really? Is that so? But in India, it’s like our traditions to expect adjustment from females. In this book, the author tried to make you understand the female point of view.
+     As the author says that women are mysterious and no one can actually understand what they really think. He added that ” I have wanted to write a book in female first person for the past several years. Not only that, I wanted that book to be about women and deal with feminism.</p>`,
+     content2:`Chetan Bhagat announced his latest book One Indian Girl via tweeting it. He also shared the official teaser which you can watch below. One Indian Girl is the Ninth book of the author. His previous book Half Girlfriend is very well received by his readers and soon releasing as a movie.`,              },
+     img1:{src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Chetan_Bhagat%2C_India.jpg/220px-Chetan_Bhagat%2C_India.jpg"},   
+ 
+ 'articleThree':
     
-    date:'October 20',
-    content: ` <p> I have to develop a web app...And this would be the 2nd page of it</p>`},
-       
-        'articleThree':{title:'Article3||Meenakshi Ramanathan',
+    {title:'Article3||Meenakshi Ramanathan',
     heading:'Article-Three',
-    date:'October 20',
+    img:{src:"https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Half_Girlfriend.jpg/220px-Half_Girlfriend.jpg"},
+    content:'Half Girlfriend is an Indian English coming of age, young adult romance novel by Indian author Chetan Bhagat. The novel, set in rural Bihar, New Delhi, Patna, and New York, is the story of a Bihari boy in quest of winning over the girl he loves.',
+    content1: `<p> Once upon a time, there was a Bihari boy called Madhav. He fell in love with a girl from Delhi called Riya. Madhav didn't speak English well. Riya did. Madhav wanted a relationship. Riya didn't. Riya just wanted friendship. Madhav didn't. Riya suggested a compromise. She agreed to be his half girlfriend. From the author of the blockbuster novels Five Point Someone, One Night @ the Call Center, The 3 Mistakes of My Life, 2 States and Revolution 2020 comes a simple and beautiful love story that will touch your heart and inspire you to chase your dreams.</p>`,
+    content2:`Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians.`,}    ,  
+    img1:{src:"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Chetan_Bhagat%2C_India.jpg/220px-Chetan_Bhagat%2C_India.jpg"},     
+  
+'articleFour':
     
-    content: `<p> I have to develop a web app...And this would be the 3rd page of it</p>`},
-          
-          'articleFour':{title:'Article4||Meenakshi Ramanathan',
+    {title:'Article4||Meenakshi Ramanathan',
     heading:'Article-Four',
-    date:'October 20',
-    content: `</p> I have to develop a web app...And this would be the 4th page of it</p>`},
+    img:{src:"https://kbimages1-a.akamaihd.net/43db11f0-3085-4f63-90eb-43d95d0a2647/166/300/False/this-love-that-feels-right.jpg"},                     
+    content:`Revolution 2020: Love, Corruption, Ambition is a 2011 novel by Chetan Bhagat Its story is concerned with a love triangle, corruption and a journey of self-discovery. R2020 has addressed the issue of how private coaching institutions exploit aspiring engineering students. How parents put their lifetime's earnings on stake for these classes so that their children can crack engineering exams and change the fortune of the family.`,
+    content1: `<p> Once upon a time, in small-town India, there lived two intelligent boys.One wanted to use his intelligence to make money.One wanted to use his intelligence to create a revolution.The problem was, they both loved the same girl.Welcome to Revolution 2020. A story about childhood friends Gopal, Raghav and Aarti who struggle to find success and love in Varanasi. However, it isn’t easy to achieve this in an unfair society that rewards the corrupt. As Gopal gives in to the system, and Raghav fights it, who will win?</p>`,
+    content2: `Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians.`}
+    
 };
 
 function createTemplate(data){
@@ -76,7 +76,7 @@ function createTemplate(data){
     
     var content1=data.content1;
     var content2=data.content2;
-    
+    var img1=data.img1;
 
 
  
@@ -145,7 +145,7 @@ ${content1}
 
 <div class="col-md-3 col-sm-3">
 <div class="bio">
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Ravinder_Singh.jpg">
+<img src="${img1.src}" alt="${img1.alt}" />
 <p>${content2}</p>
 </div>
 </div>
