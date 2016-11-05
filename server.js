@@ -150,6 +150,15 @@ app.get('/counter', function (req, res) {
    res.send(counter.toString());
 }); 
 
+var names = [];
+app.get('/submit-name', function(req, res) { // /submit-name?name=xxxx
+  // Get the name from the request
+var name = req.query.name;
+names.push(name);
+// JSON: Javascript Object Notation
+res.send(JSON.stringify(names));
+}); 
+
 
 var comments=[];
 app.get('/submit-comment',function(req,res){
