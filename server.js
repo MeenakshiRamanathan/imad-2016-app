@@ -123,9 +123,13 @@ ${content1}
 </ul>
 <script type="text/javascript" src="/ui/main.js">
 </script>
-</form>
+<form>
 </div>
 
+<div class="user">
+<h6>User Rating: <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Star_rating_4.5_of_5.png"></h6>
+<h6>Rate of Book: <span style="color:#990100">$100</span></h6>
+</div>
 
 
 
