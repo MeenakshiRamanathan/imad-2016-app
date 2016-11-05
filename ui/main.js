@@ -1,14 +1,25 @@
-console.log('Loaded!');
+// counter code
 
-var element=document.getElementById('main-text');
-element.innerHTML='New value';
-
-var img=document.getElementById('madi');
-var marginLeft=0;
-function moveRight(){
-    marginLeft=marginLeft-1;
-    img.style.marginLeft=marginLeft+'px';
+var button=document.getElementById("counter");
+if (button !== undefined) {
+button.onclick = function(){
+var request = new XMLHttpRequest();
+    //create a request
+ request.onreadystatechange= function(){
+ if (request.readyState === XMLHttpRequest.DONE)
+  {
+      // take some action
+    if (request.status===200)
+       { 
+           //alert("ok");
+        var counter=request.responseText;
+        var span=document.getElementById("count");
+        span.innerHTML=counter.toString();
+       }
+  }
+};
+   // make the request
+    request.open('GET', 'http://sekarvaradha.imad.hasura-app.io/counter', true);
+     request.send(null);
+}; 
 }
-img.onclick=function(){
-    var interval=setInterval(marginRight,50);
-} ;
