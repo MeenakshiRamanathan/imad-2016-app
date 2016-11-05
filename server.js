@@ -125,6 +125,21 @@ ${content1}
 </script>
 </form>
 </div>
+
+<div class="container">
+  <ul>
+    <li data-length="1"><span></span></li>
+    <li data-length="2"><span></span></li>
+    <li data-length="3"><span></span></li>
+    <li data-length="4"><span></span></li>
+    <li data-length="5"><span></span></li>
+  </ul>
+</div>
+
+
+
+
+
 </div>
 <div class="col-md-3 col-sm-3">
 <div class="bio">
@@ -170,6 +185,26 @@ comments.push(comment);
  res.send(JSON.stringify(comments));
 
 //to render those comments on the page
+});
+
+$(document).ready(function() {
+  $('li').on('click', function(){
+
+    var otherStars = $(this).parent().children();
+    otherStars.children('span').css('background-position', '0px 0px');
+    var onStarLength = $(this).data('length');
+
+    for(var i = 0; i < onStarLength; i++) {
+      $(otherStars[i]).children('span').css('background-position', '22px 22px');
+    }
+
+    if (onStarLength <= 2) {
+      $('p').fadeIn('slow').text("We apologise that you don't feel our service was upto your standards...");
+    }
+    else if (onStarLength >= 3) {
+      $('p').fadeIn('slow').text("Thanks for rating our service so highly!");
+    }
+  });
 });
 
 app.get('/:articleName',function(req,res){
