@@ -126,16 +126,6 @@ ${content1}
 </form>
 </div>
 
-<div class="container">
-  <ul>
-    <li data-length="1"><span></span></li>
-    <li data-length="2"><span></span></li>
-    <li data-length="3"><span></span></li>
-    <li data-length="4"><span></span></li>
-    <li data-length="5"><span></span></li>
-  </ul>
-</div>
-
 
 
 
