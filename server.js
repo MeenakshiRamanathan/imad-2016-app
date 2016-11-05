@@ -116,7 +116,7 @@ ${content1}
 </div>       
 
 
-</div>
+
 <div class="form">
 <form>
 <label>Tell us what you think </label>
