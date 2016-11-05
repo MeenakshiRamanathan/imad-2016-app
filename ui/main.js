@@ -19,7 +19,7 @@ var request = new XMLHttpRequest();
   }
 };
    // make the request
-    request.open('GET', 'http://sekarvaradha.imad.hasura-app.io/counter', true);
+    request.open('GET', 'http://http://meenakshiramanathan.imad.hasura-app.io', true);
      request.send(null);
 }; 
 }
