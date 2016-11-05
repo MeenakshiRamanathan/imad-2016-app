@@ -23,7 +23,7 @@ var request = new XMLHttpRequest();
      request.send(null);
 }; 
 }
-// making comments
+// Comments
  
 var submit=document.getElementById("comment-btn");
 if (submit !== undefined) {
@@ -34,7 +34,7 @@ var request = new XMLHttpRequest();
  request.onreadystatechange= function(){
  if (request.readyState === XMLHttpRequest.DONE)
   {
-      // take some action
+      // action taken
     if (request.status===200)
        { 
         var comments =request.responseText;
@@ -51,11 +51,11 @@ var request = new XMLHttpRequest();
   }
 };
 
-   // make the request
+   //To make the request
   
    var comment=document.getElementById('comment');
    var txt =comment.value;
-    request.open('GET', 'http://sekarvaradha.imad.hasura-app.io/submit-comment?comment=' +txt, true);
+    request.open('GET', 'http://meenakshiramanathan.imad.hasura-app.io' +txt, true);
     request.send(null); 
 }; 
 }
@@ -80,11 +80,11 @@ var request = new XMLHttpRequest();
   };
 
 
-   // make the request
+   //To make the request
   
    var username=document.getElementById('username');
    var txt =username.value;
-request.open('GET', 'http://sekarvaradha.imad.hasura-app.io/login?username='+txt, true);
+request.open('GET', 'http://meenakshiramanathan.imad.hasura-app.io/login?username='+txt, true);
 request.send(null); 
 }; 
 }
@@ -99,7 +99,7 @@ var request = new XMLHttpRequest();
  request.onreadystatechange= function(){
  if (request.readyState === XMLHttpRequest.DONE)
   {
-      // take some action
+      //  action taken
     if (request.status===200)
        { 
         
@@ -117,11 +117,11 @@ var request = new XMLHttpRequest();
   }
 };
 
-   // make the request
+   //To send the request
   
    var comment=document.getElementById('comment-article');
    var txt =comment.value;
-   request.open('GET', 'http://sekarvaradha.imad.hasura-app.io/article-comment?comment=' +txt, true);
+   request.open('GET', 'http://meenakshiramanathan.imad.hasura-app.io/article-comment?comment=' +txt, true);
    
     request.send(null); 
 }; 
