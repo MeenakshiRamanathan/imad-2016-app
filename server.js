@@ -127,7 +127,7 @@ ${content1}
 </div>
 <div class="col-md-3 col-sm-3">
 <div class="bio">
-<img src="" />
+<img src="http://www.chetanbhagat.com/wp-content/uploads/chetan_bhagat_011.jpg" />
 <p>${content2}</p>
 </div>
 </div>
