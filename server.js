@@ -67,41 +67,27 @@ var articles= {
 };
 
 function createTemplate(data){
-    var title=data.title;
     
+    var title=data.title;
     var heading=data.heading;
     var img=data.img;
     var content=data.content;
-    
     var content1=data.content1;
     var content2=data.content2;
     var img1=data.img1;
 
-
- 
-    
 var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-
 <title>${title}</title>
-
 <meta name="viewport" content="width-device-width ,  initial-scale=1"/>
 <link href="/ui/style.css" rel="stylesheet"/>
-
 </head>
 <body>
-
 <div class="container">
 <div id="wrapper">
-
 <div class="title">
 <h3>${heading}</h3>
-
 </div>
-
-
-
-
 <div class="col-md-3 col-sm-3">
 <div class="quotes">
 <p>${content}</p>
@@ -127,8 +113,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 <p>
 ${content1}
  </p>
- 
-</div>
+ </div>
 <div class="user">
 <h6>User Rating: <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Star_rating_4.5_of_5.png"></h6>
 <h6>Rate of Book: <span style="color:#990100">$100</span></h6>
@@ -141,10 +126,9 @@ ${content1}
 <form>
 </div>
 </div>
-
 <div class="col-md-3 col-sm-3">
 <div class="bio">
-<img src="${img1.src}" alt="${img1.alt}" />
+<img1 src="${img1.src}" alt="${img1.alt}" />
 <p>${content2}</p>
 </div>
 </div>
