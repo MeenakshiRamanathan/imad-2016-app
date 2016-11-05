@@ -109,9 +109,49 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
 ${content1}
  </p>
  </div>
-<div class="user">
-<h6>User Rating: <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Star_rating_4.5_of_5.png"></h6>
-<h6>Rate of Book: <span style="color:#990100">$100</span></h6>
+<section class="star rating">
+        <input type="radio" name="example" class="rating" value="1" />
+        <input type="radio" name="example" class="rating" value="2" />
+        <input type="radio" name="example" class="rating" value="3" />
+        <input type="radio" name="example" class="rating" value="4" />
+        <input type="radio" name="example" class="rating" value="5" />
+    </section>
+        
+    <section>
+    <h2>How to use</h2>
+        <h3>Html</h3>
+        <pre>
+&lt;div class="container"&gt;
+    &lt;input type="radio" name="example" class="rating" value="1" /&gt;
+    &lt;input type="radio" name="example" class="rating" value="2" /&gt;
+    &lt;input type="radio" name="example" class="rating" value="3" /&gt;
+    &lt;input type="radio" name="example" class="rating" value="4" /&gt;
+    &lt;input type="radio" name="example" class="rating" value="5" /&gt;
+&lt;/div&gt;
+        </pre>
+ 
+        <h3>Simple usage</h3>
+        <pre>
+$('.container').rating();
+        </pre>
+        <h3>Using with callback method</h3>
+        <pre>
+$('.container').rating(function(vote, event){
+    // console.log(vote, event);
+});
+        </pre>
+        <h3>Example of using ajax</h3>
+        <pre>
+$('.container').rating(function(vote, event){
+    // write your ajax code here
+    // For example;
+    // $.get(document.URL, {vote: vote});
+});
+        </pre>
+
+   </section>
+
+
 </div>
 <div class="form">
 <form>
