@@ -94,7 +94,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
         <div class="links">
             <h2>Some links are</h4>
                 <ul>
-                  <MARQUEE BEHAVIOR=SLIDE SCROLLDELAY=200>
+                  <MARQUEE BEHAVIOR=SLIDE SCROLLDELAY=50>
                     <li><a href="http://amazon.in">Amazon</a></li>
                     <li><a href="http://snapdeal.com">Snapdeal</a></li>
                     <li><a href="http://flipkart.com">Flipkart</a></li>
