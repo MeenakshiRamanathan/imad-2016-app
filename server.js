@@ -85,7 +85,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
                 </div>
 <div class="col-md-3 col-sm-3">
     <div class="quotes">
-        <p><marquee direction="up">${content}</marquee></p>
+        <p><marquee direction="up" SCROLLDELAY=500>${content}</marquee></p>
     </div>
         <div class="links">
             <h2>Some links are</h4>
