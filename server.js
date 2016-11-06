@@ -85,7 +85,11 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
                 </div>
 <div class="col-md-3 col-sm-3">
     <div class="quotes">
-        <p><marquee direction="up" SCROLLDELAY=600>${content}</marquee></p>
+        <p>
+          <marquee direction="up" SCROLLDELAY=600>
+              ${content}
+          </marquee>
+        </p>
     </div>
         <div class="links">
             <h2>Some links are</h4>
@@ -106,7 +110,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
     </div>
         <div class="content">
             <p>
-               <marquee direction="down" SCROLLDELAY=600> ${content1}</marquee>
+                ${content1}
             </p>
     </div>
         <div class="user">
@@ -128,7 +132,11 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
     <div class="col-md-3 col-sm-3">
         <div class="bio">
             <img src="http://www.chetanbhagat.com/wp-content/uploads/chetan_bhagat_011.jpg" />
-        <p>${content2}</p>
+        <p>
+           <marquee direction="down" SCROLLDELAY=600>
+             ${content2}
+           </marquee>
+        </p>
     </div>
 </div>
     </div></div>
