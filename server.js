@@ -92,7 +92,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
         </p>
     </div>
         <div class="links">
-            <h2>Some links are</h4>
+            <h2>Some links are</h2>
                 <ul>
                   <MARQUEE BEHAVIOR=SLIDE SCROLLDELAY=50>
                     <li><a href="http://amazon.in">Amazon</a></li>
