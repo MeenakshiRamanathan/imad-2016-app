@@ -120,6 +120,10 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
             <h6>Rate of Book: <span style="color:#990100">$100</span></h6>
         </div>       
     <div class="form">
+    Add Names 
+<input type="text" id ="name" placeholder="name"> 
+<input type ="submit" id="submit-btn" value="Add">
+ <p id="namelist" style="display:block;">  </p>
         <form>
             <label>Tell us what you think </label>
                 <textarea placeholder="Write your comments here....!Don't forget to B-nice" name="comment" id="comment-article"></textarea>
