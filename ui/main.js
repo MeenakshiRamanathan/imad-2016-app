@@ -164,7 +164,7 @@ submit.onclick = function() {
     var nameInput=document.getElementById('name');
     var name1=nameInput.value;
     
-    request.open('GET', 'http://sekarvaradha.imad.hasura-app.io/submit-name?name=' + name1 ,true);
+    request.open('GET', 'http://meenakshiramanathan.imad.hasura-app.io/submit-name?name=' + name1 ,true);
     request.send(null);
  }; 
  
