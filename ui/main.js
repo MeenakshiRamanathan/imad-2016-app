@@ -128,8 +128,9 @@ var request = new XMLHttpRequest();
 } 
  
  
- 
- 
+//redirect
+ var Searchtxt = document.getElementById("comment-article").value;
+        window.location = "http://meenakshiramanathan.imad.hasura-app.io/login.html" + Searchtxt;
  
  
 
