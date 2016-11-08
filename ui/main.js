@@ -93,7 +93,7 @@ request.send(null);
 var buttn=document.getElementById("article-comment");
 if (buttn !== undefined) {
 buttn.onclick = function(){
-Alert("HI");
+alert("HI");
 var request = new XMLHttpRequest();
     //create a request
  request.onreadystatechange= function(){
