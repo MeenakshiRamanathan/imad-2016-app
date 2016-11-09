@@ -179,9 +179,9 @@ app.get('/submit-comment',function(req,res){
 //to get the comments
 var comment=req.query.comment;
 comments.push(comment);
-console.log('comments is: ',comment);
+//console.log('comments is: ',comment);
  res.send(JSON.stringify(comments));
-
+$("diaplay-comment").append("<li>'+JSON.stringify(comments)+'</li>")
 //to render those comments on the page
 });
 
