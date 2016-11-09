@@ -181,7 +181,7 @@ var comment=req.query.comment;
 comments.push(comment);
 //console.log('comments is: ',comment);
  res.send(JSON.stringify(comments));
-$('#diaplay-comment').append('<li>'+JSON.stringify(comments)+'</li>')
+alert(JSON.stringify(comments));
 //to render those comments on the page
 });
 
