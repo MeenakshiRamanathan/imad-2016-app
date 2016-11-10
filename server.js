@@ -89,6 +89,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
           <marquee direction="up" SCROLLDELAY=300>
               ${content}
           </marquee>
+           <button type="button" class="btn btn-success">Success</button>
         </p>
     </div>
         <div class="links">
