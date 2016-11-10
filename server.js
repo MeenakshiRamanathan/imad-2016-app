@@ -136,13 +136,14 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
         <form>
     </div>
 </div>
-    <div class="col-md-3 col-sm-3">
-    <button type="button" class="btn btn-info">
+ <button type="button" class="btn btn-info">
       <span class="glyphicon glyphicon-search"></span> Search
     </button>
   <a href="#" class="btn btn-success btn-lg">
       <span class="glyphicon glyphicon-print"></span> Print
     </a>
+    <div class="col-md-3 col-sm-3">
+   
     
         <div class="bio">
         
