@@ -200,6 +200,10 @@ app.get('/login.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'login.html'));
 });
 
+app.get('/:articleName?comment', function (req, res) {
+  res.sendFile(path.join(__dirname, 'login.html'));
+});
+
 
 app.get('/Home.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'Home.html'));
