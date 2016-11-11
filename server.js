@@ -106,12 +106,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
             </div>
         </div>
     <div class="col-md-6 col-sm-6" style="background:#2E84A6; padding:15px">
-     <button type="button" class="btn btn-info" float:right>
-    <span class="glyphicon glyphicon-search" float:right></span> Search
-    </button>
-  <a href="#" class="btn btn-success btn-lg" float:right>
-      <span class="glyphicon glyphicon-print" float:right></span> Print
-    </a>
+     
 
         <div class="banner">
             <center>
@@ -144,7 +139,12 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
     </div>
     
 </div>
- 
+ <button type="button" class="btn btn-info" float:right>
+    <span class="glyphicon glyphicon-search" float:right></span> Search
+    </button>
+  <a href="#" class="btn btn-success btn-lg" float:right>
+      <span class="glyphicon glyphicon-print" float:right></span> Print
+    </a>
       
     <div class="col-md-3 col-sm-3">
    
