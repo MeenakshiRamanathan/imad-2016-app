@@ -3,8 +3,7 @@
  //var button=document.getElementById("counter");
  //if (button !== undefined) {
  //button.onclick = function(){
- $(document).ready(function() {
- });
+ 
  $("#counter").click(function(){
      alert('hi counter');
  var request = new XMLHttpRequest();
