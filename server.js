@@ -162,6 +162,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
     </div>
 </div>
     </div></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     </body>
 </html>
 `;
