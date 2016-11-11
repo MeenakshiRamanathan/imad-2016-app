@@ -196,7 +196,7 @@ var comment=req.query.comment;
 comments.push(comment);
 //console.log('comments is: ',comment);
  res.send(JSON.stringify(comments));
-alert(JSON.stringify(comments));
+alert('hi');
 //to render those comments on the page
 });
 
