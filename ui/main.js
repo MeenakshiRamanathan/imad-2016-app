@@ -1,8 +1,9 @@
  // counter code
 
- var button=document.getElementById("counter");
- if (button !== undefined) {
- button.onclick = function(){
+ //var button=document.getElementById("counter");
+ //if (button !== undefined) {
+ //button.onclick = function(){
+ $("#counter").click(function(){
  var request = new XMLHttpRequest();
     //create a request
  request.onreadystatechange= function(){
@@ -21,8 +22,8 @@
     // make the request
      request.open('GET', 'http://http://meenakshiramanathan.imad.hasura-app.io', true);
       request.send(null);
- }; 
- }
+ }); 
+// }
  // Comments
  
 var submit=document.getElementById("comment-btn");
