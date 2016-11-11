@@ -136,6 +136,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
                 <ul id="diaplay-comment">
         </ul>
             <script type="text/javascript" src="/ui/main.js">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
             </script>
         <form>
     </div>
@@ -163,7 +164,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
     </div>
 </div>
     </div></div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
     </body>
 </html>
 `;
