@@ -135,14 +135,14 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
             </script>
         <form>
     </div>
-    <button type="button" class="btn btn-info">
+    
+</div>
+ <button type="button" class="btn btn-info">
     <span class="glyphicon glyphicon-search"></span> Search
     </button>
   <a href="#" class="btn btn-success btn-lg">
       <span class="glyphicon glyphicon-print"></span> Print
     </a>
-</div>
- 
       
     <div class="col-md-3 col-sm-3">
    
