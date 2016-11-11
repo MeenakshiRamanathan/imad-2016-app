@@ -4,6 +4,7 @@
  //if (button !== undefined) {
  //button.onclick = function(){
  $("#counter").click(function(){
+     alert('hi counter');
  var request = new XMLHttpRequest();
     //create a request
  request.onreadystatechange= function(){
