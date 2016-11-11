@@ -3,7 +3,7 @@
 
  var button=document.getElementById("counter");
  if (button !== undefined) {
- button.click = function(){
+ button.onclick = function(){
      alert('hi counter');
  var request = new XMLHttpRequest();
     //create a request
@@ -29,7 +29,7 @@
  
 var submit=document.getElementById("comment-btn");
 if (submit !== undefined) {
-submit.click = function(){
+submit.onclick = function(){
 
 var request = new XMLHttpRequest();
     //create a request
@@ -64,7 +64,7 @@ var request = new XMLHttpRequest();
 
 var login=document.getElementById("login-submit");
 if (login !== undefined) {
-login.click = function(){
+login.onclick = function(){
 var request = new XMLHttpRequest();
  alert ("ok");
     //create a request
