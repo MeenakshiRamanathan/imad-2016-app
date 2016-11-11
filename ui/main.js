@@ -1,11 +1,9 @@
-window.document.write("https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>");
+
  // counter code
 
- //var button=document.getElementById("counter");
- //if (button !== undefined) {
- //button.onclick = function(){
- 
- $("#counter").click(function(){
+ var button=document.getElementById("counter");
+ if (button !== undefined) {
+ button.onclick = function(){
      alert('hi counter');
  var request = new XMLHttpRequest();
     //create a request
@@ -25,8 +23,8 @@ window.document.write("https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery
     // make the request
      request.open('GET', 'http://http://meenakshiramanathan.imad.hasura-app.io', true);
       request.send(null);
- }); 
-// }
+ }; 
+}
  // Comments
  
 var submit=document.getElementById("comment-btn");
