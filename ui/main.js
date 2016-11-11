@@ -1,5 +1,8 @@
-(function() {
-});
+var jq = document.createElement("script");
+
+jq.addEventListener("load", proceed); // pass my hoisted function
+jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js";
+document.querySelector("head").appendChild(jq);
  // counter code
 
  //var button=document.getElementById("counter");
