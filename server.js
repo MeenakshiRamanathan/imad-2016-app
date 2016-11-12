@@ -19,7 +19,7 @@ var articles= {
  'articleOne' :
     
     {title:'Article1||Meenakshi Ramanathan',
-    heading:'This  love that feels right',
+    heading:'What Young India Wants',
     img:{src:"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQKLUk9SFEgNbF98cIxebe-vHBBh4j9oWCy6hgR3n8y7coFv_b3"},
     content:`"What Young India Wants is a non-fiction book by Chetan Bhagat. A compilation of his speeches and essays, it focuses on Indian society, politics the youth. The book revolves around Bhagat's thoughts and innovations on how to improve the Indian economy through social reforms.  "`,
     content1:`<p>
