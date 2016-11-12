@@ -151,8 +151,7 @@ var htmlTemplate = `<html xmlns="http://www.w3.org/1999/xhtml">
     </a>
         <div class="bio">
         
-        
-            <img src="http://www.chetanbhagat.com/wp-content/uploads/chetan_bhagat_011.jpg" />
+             <img src="http://www.chetanbhagat.com/wp-content/uploads/chetan_bhagat_011.jpg" />
         <p>
            <marquee direction="down" SCROLLDELAY=300>
              ${content2}
