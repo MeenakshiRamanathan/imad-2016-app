@@ -215,8 +215,8 @@ app.get('/login.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'login.html'));
 });
 
-app.get('/:articleName?comment', function (req, res) {
-  res.sendFile(path.join(__dirname, 'login.html'));
+app.get('/Personal.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'Personal.html'));
 });
 
 
