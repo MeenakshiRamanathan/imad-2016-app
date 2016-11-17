@@ -4,227 +4,448 @@
 
 <!DOCTYPE html>
 <html>
+    <head>
     <style>
-nav {
-  padding-bottom: 0px;
-}
-
-html,
+        
+		<title>Dennis Andersson</title>
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 body {
-  height: 100%;
-  background-color: gray;
+		padding-top: 50px;
 }
 
-a,
-a:hover,
-a:visited,
-a:active {
-  color: white;
-  text-decoration: underline;
+p {
+		font-size: 12px;
 }
 
-a:hover {
-  color: black;
-  text-shadow: 1px 1px 8px white;
-  text-decoration: underline;
+.navbar-brand {
+		font-family: 'Montserrat', sans-serif;
+		font-size: 24px;
 }
 
-h1 {
-  color: white;
-  font-size: 55px;
-  text-shadow: 3px 3px 4px #000000;
+.section {
+		height: 1000px;
+		background-position: center;
 }
 
-h1 small {
-  color: white;
-  font-size: 25px;
-  text-shadow: 2px 2px 8px #000000;
+.section-title {
+		margin: 20px 0px;
+		font-size: 54px;
+		color: #111;
 }
 
-#about {
-  background-image: url("http://i.imgur.com/AMf9X7E.jpg");
+.divider {
+		margin: 10px auto 30px auto;
+		border: 0;
+		height: 1px;
+		width: 100%;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
-#home {
-  background-image: url("http://i.imgur.com/SQLA8h5.jpg");
+.background-section {
+		background-attachment: fixed;
+		box-shadow: inset 0px 0px 10px black;
 }
 
-#portifolio {
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-image: url("http://i.imgur.com/Yf9mHYH.jpg");
-  min-height: 100%;
-  max-height: auto;
-  height: auto;
+.home {
+		background-image: url("https://images.unsplash.com/reserve/GtJALYqlRDiojsfBMQRa_373A1071.jpg?q=80&fm=jpg&s=a179b4c687526f0bba5f463dcbc9cd34");
 }
 
-#contact {
-  background-image: url("http://i.imgur.com/pfvBBmD.jpg");
+.social-links {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 }
 
-.item {
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  height: 100%;
+.social-link {
+		width: 150px;
+		margin: 0px 20px 0px 0px;
+		text-align: center;
 }
 
-.item .container {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+.social-image {
+		float: right;
+		width: 20px;
+		height: 20px;
 }
 
-.contact-item {
-  color: white;
-  font-size: 28px;
-  text-shadow: 0px 0px 4px #000000;
+@media(max-width: 600px) {
+		.social-links {
+				flex-flow: column;
+		}
+		.social-link {
+				display: block;
+				margin-top: 10px;
+		}
 }
 
-.itemTitle {
-  font-size: 40px;
+.home-logo {
+		padding: 100px;
+		font-family: 'Montserrat', sans-serif;
+		width: 500px;
+		margin: auto;
 }
 
-#about div p {
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-  font-size: 20px;
+@media(max-width: 520px) {
+		.home-logo {
+				padding: 100px 0px 100px 0px;
+				font-family: 'Montserrat', sans-serif;
+				width: 300px;
+				margin: auto;
+		}
+}
+
+.home-logo h1 {
+		font-size: 70px;
+		margin: 0;
+		padding: 0;
+}
+
+.home-logo h2 {
+		font-size: 30px;
+		margin: 0;
+		padding: 0;
+}
+
+.home-logo hr {
+		margin: 10px;
+		border: 0;
+		height: 1px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.home-lead {
+		font-size: 38px;
+		padding: 10px 70px;
+}
+
+.about {
+		background-image: url("https://images.unsplash.com/photo-1428263197823-ce6a8620d1e1?q=80&fm=jpg&s=cf24ca99b3eea961b1649832cdeced86");
+}
+
+.about-col {
+		padding: 0px;
+		margin-top: 100px;
+		max-width: 1000px;
+}
+
+.portfolio {
+		background-image: url("https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?q=80&fm=jpg&s=293cce57f99e5d60745e1da9da9db675");
+}
+
+.portfolio-container {
+		padding: 100px 50px;
+		text-align: center;
+}
+
+.portfolio-row {
+		margin: 0 auto;
+}
+
+.portfolio-item {
+	overflow: hidden;
+		height: 240px;
+		padding: 10px;
+		margin: -1px;
+		background-color: rgba(140, 140, 140, 0.7);
+		transition: 100ms;
+}
+
+@media(max-width: 990px){
+	.portfolio-item {
+		height: 240px;
+	}
+}
+
+.portfolio-item:hover {
+		position: relative;
+		transform: scale(1.03);
+		box-shadow: 5px 5px 10px black;
+		background-color: rgba(180, 180, 180, 1);
+		z-index: 99;
+}
+
+.portfolio-img-wrapper {
+	width: 100%;
+	height: 150px;
+	overflow: hidden;
+	margin: auto;
+}
+
+@media(max-width: 500px){
+	.portfolio-img-wrapper {
+		height: 70px;
+	}
+}
+
+.portfolio-img {
+	width: 100%;
+	height: auto;
+}
+
+
+.item-title {
+		color: black;
+		font-size: 20px;
+		float: left;
+}
+
+.item-description {
+		color: #111;
+		clear: left;
+		text-align: left;
+		overflow: hidden;
+}
+
+.contact {
+		background-image: url(http://subtlepatterns.com/patterns/zwartevilt.png);
+		height: 90vh;
+}
+
+.contact-container {
+		color: #EEE;
+		padding: 150px 50px;
+}
+
+.contact-mail {
+		margin: 100px 0px;
+}
+
+footer {
+		height: 10vh;
+}
+/* Link list in footer */
+
+.link-list {
+		margin: 30px 80px;
+}
+
+.link-list li {
+		float: left;
+		margin-right: 10px;
+}
+
+.small-text {
+		margin: 0px 80px;
+		clear: left;
+		font-size: 12px;
 }
 </style>
+    </head>
 <body>
 
-<nav id="navbar-top" class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <span class="navbar-brand">João Víctor</span>
-      <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse navHeaderCollapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portifolio">Portifolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<!-- Header -->
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container-fluid">
 
-<div id="home" class="item">
-  <div class="container text-center">
-    <h1>João Víctor<br/><small>Programmer, Game Developer &amp; Web Developer</small></h1>
-  </div>
-</div>
-<div id="about" class="item">
-  <div class="container text-left">
-    <h1 class="itemTitle">About me</h1>
-    <hr>
-    <p>I'm a self taught programmer, web developer, game developer and sometimes, web designer.
-      <br>I'm from Brazil and currently I'm on <a target="_blank" href="https://www.ifgoiano.edu.br/home/index.php/cursos-tecnicos-ceres/192-informatica">high school with a technical course on informatica</a>. I have four years of experience with computer
-      programming.</p>
-    <p>I know the basics of Java, PHP, JavaScript and I'm experienced with C++ and C#.</p>
-    <p>For Game Development and programming I normally like to use <a target="_blank" href="https://www.allegro.cc">Allegro 5</a> for 2D games and <a target="_blank" href="https://unity3d.com/pt">Unity</a> for 3D games, but I also have used <a target="_blank"
-      href="https://www.libsdl.org/">SDL</a>.</p>
-    <p>For Web development I usually use <a target="_blank" href="getbootstrap.com/">Bootstrap</a> and <a target="_blank" href="https://jquery.com">jQuery</a>.</p>
-    <p>I also have experience with SQL (<a target="_blank" href="https://www.mysql.com/">MySQL</a> and <a target="_blank" href="https://mariadb.org/">MariaDB</a>).</p>
-  </div>
-</div>
-<div id="portifolio">
-  <div class="container text-center">
-    <h1>Portfolio</h1>
-    <br>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img src="http://i.imgur.com/HhnZY2D.png" alt="Screenshoot">
-            <div class="caption">
-              <h3>Twitch JSON API</h3>
-              <p>A simple application for a FreeCodeCamp Zipline</p>
-              <p><a href="http://codepen.io/jvhti/full/adEQpq/" target="_blank" class="btn btn-primary" role="button">Visit!</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img src="http://i.imgur.com/vqhJr7A.png" alt="Screenshoot">
-            <div class="caption">
-              <h3>Wikipedia Viewer </h3>
-              <p>A application that uses Wikipedia API for search with keywords or to open an random page.</p>
-              <p><a href="http://codepen.io/jvhti/full/vLJjZp/" target="_blank" class="btn btn-primary" role="button">Visit!</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img src="http://i.imgur.com/Pb9N6H3.png" alt="Screenshoot">
-            <div class="caption">
-              <h3>Random Quote Machine</h3>
-              <p>A random quote machine. You can tweet any quote.</p>
-              <p><a href="http://codepen.io/jvhti/full/ZQKavz/" class="btn btn-primary" target="_blank" role="button">Visit!</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img src="http://i.imgur.com/ED5Twf1.png" alt="Screenshoot">
-            <div class="caption">
-              <h3>Pomodore</h3>
-              <p>Manage your time with a work-rest style.</p>
-              <p><a href="http://codepen.io/jvhti/full/mVmaEz/" class="btn btn-primary" target="_blank" role="button">Visit!</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img src="http://i.imgur.com/Y5ZKaXk.png" alt="Screenshoot">
-            <div class="caption">
-              <h3>Calculator</h3>
-              <p>A simple calculator that can do chain operations.</p>
-              <p><a href="http://codepen.io/jvhti/full/wMqpJQ/" class="btn btn-primary" target="_blank" role="button">Visit!</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4">
-          <div class="thumbnail">
-            <img src="http://i.imgur.com/OEgvLpI.png" alt="Screenshoot">
-            <div class="caption">
-              <h3>Stylize Stories</h3>
-              <p>That simple page shows you a post feed from FreeCodeCamp.</p>
-              <p><a href="http://codepen.io/jvhti/full/adyYMz/" class="btn btn-primary" target="_blank" role="button">Visit!</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div id="contact" class="item">
-  <div class="container">
-    <h1>Contact me</h1>
-    <hr>
-    <br>
-    <span class="contact-item">E-mail: <a href="MAILTO:jvhti@hotmail.com" target="_blank">jvhti@hotmail.com</a></span>
-    <br>
-    <span class="contact-item">FreeCodeCamp: </span>
-    <a href="http://freecodecamp.com/jvhti" target="_blank"><button class="btn btn-default" >FreeCodeCamp</button></a>
-    <br>
-    <span class="contact-item">GitHub: </span>
-    <a href="https://github.com/jvhti" target="_blank"><button class="btn btn-default">GitHub</button></a>
-    <br>
-  </div>
-</div>
+						<!-- Logo -->
+						<div class="navbar-header">
+								<a class="navbar-brand" href="#">DE|JI</a>
+
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-links-collapse" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+								</button>
+						</div>
+						<!-- /Logo -->
+
+						<!-- nav links -->
+						<div class="collapse navbar-collapse" id="nav-links-collapse">
+								<ul class="nav navbar-nav navbar-right">
+										<li><a href="#homeSection">Home</a></li>
+										<li><a href="#aboutSection">About</a></li>
+										<li><a href="#portfolioSection">Portfolio</a></li>
+										<li><a href="#contactSection">Contact</a></li>
+
+								</ul>
+						</div>
+						<!-- /nav links -->
+				</div>
+		</nav>
+		<!-- /Header -->
 
 
+		<section id="homeSection" class="section background-section home">
+
+				<!-- Logo -->
+				<div class="home-logo text-center">
+						<h1>DE|JI</h1>
+						<hr>
+						<h2>Design</h2>
+				</div>
+				<!-- /Logo -->
+
+				<!-- Social links -->
+				<div class="social-links">
+						<a href="https://twitter.com/movrax" target="_blank" class="social-link btn btn-default"><img class="social-image" src="http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/24/Web-Twitter-alt-2-Metro-icon.png">Twitter</a>
+						<a href="https://github.com/deandersson" target="_blank" class="social-link btn btn-default"><img class="social-image" src="http://icons.iconarchive.com/icons/icons8/windows-8/24/Programming-Github-icon.png">GitHub</a>
+						<a href="https://plus.google.com/u/0/108342482887771416137" target="_blank" class="social-link btn btn-default"><img class="social-image" src="http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/24/Web-Google-plus-alt-Metro-icon.png">Google+</a>
+
+						<a href="http://www.freecodecamp.com/deandersson" target="_blank" class="social-link btn btn-default"><img class="social-image" src="http://thumb9.shutterstock.com/thumb_small/1571366/293517422/stock-vector-fire-flames-fire-burns-vector-black-icons-on-white-background-293517422.jpg">FreeCodeCamp</a>
+				</div>
+				<!-- /Social links -->
+
+		</section>
+		<!-- /HomeSection -->
 
 
+		<section id="aboutSection" class="section about">
+
+				<!-- Column 1 -->
+				<div class="about-col col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-5 ">
+						<h1 class="section-title">About:</h1>
+
+						<p><b>Construction engineer going computer sciency playing with designing.</b>
+								<br>
+								<br> I love to solve problems and to do it in the most elegent and efficent way. Add to the mix some teamwork and the ideal environment appears.
+								<br>
+								<br> Originally a self-taught developer. After I finished construction I decided to enroll in "Mid Sweden University" to get a degree in computer science. Later on I found "FreeCodeCamp" which have an awesome curriculum to complement my other studies.
+								Which is where im at now.
+								<br>
+								<br> Currently my main focus lies on deepen my knowledge in:
+								<b><ul style="list-style-type: circle; padding-left: 20px;">
+						<li>HTML, CSS, Js</li>
+						<li>PHP</li>
+						</ul></b>
+								<br> Also some basic knowledge in:
+								<b>
+						<ul style="list-style-type: circle; padding-left: 20px;">
+						<li>C++</li>
+						<li>Server administration</li>
+						<li>Networking</li>						
+						</ul></b>
+						</p>
+				</div>
+				<!-- /Column 1 -->
+
+				<!-- Create a line break on xs devices -->
+				<div class="clearfix visible-xs-block"></div>
+
+				<!-- Column 2 At the moment empty since I am incapable of taking pictures of myself....-->
+				<div class="about-col col-xs-offset-3 col-xs-6 col-sm-offset-1 col-sm-5">
+
+						<!-- Maybe a picture -->
+
+				</div>
+				<!-- /Column 2 -->
+		</section>
+
+		<section id="portfolioSection" class="section background-section portfolio">
+
+				<!-- Portfolio container -->
+				<div class="portfolio-container container center-block;">
+						<h1 class="section-title col-xs-12">Portfolio</h1>
+						<hr class="divider">
+
+						<!-- Everything is a big row and is handled with bootstrap grid -->
+						<div class="row portfolio-row">
+
+								<!-- Item 1 -->
+							<div class="portfolio-item col-md-4 col-xs-6">
+								<a href="http://codepen.io/delkasko/full/LVKzGY" target="_blank">
+										<div class="portfolio-img-wrapper">
+												<img class="img-responsive portfolio-img" src="https://scontent-arn2-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/11061956_10207579615193096_415354462917995870_n.jpg?oh=c29b271225c02ab1f2a3619a3b858a46&oe=566B978F">
+									</div>
+												<p class="item-title">Random Quote Machine</p>
+												<p class="item-description">Get your daily inspirational quote!</p>
+										
+								</a></div>
+
+								<!-- Item 2 -->
+								<a href="#" target="_blank">
+										<div class="portfolio-item col-md-4 col-xs-6">
+											<div class="portfolio-img-wrapper">
+												<img class="img-responsive portfolio-img" src="http://lorempixel.com/400/200/">
+											</div>
+												<p class="item-title">Item 2</p>
+												<p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+										</div>
+								</a>
+
+								<!-- Item 3 -->
+								<a href="#" target="_blank">
+										<div class="clearfix visible-sm-block"></div>
+										<div class="portfolio-item col-md-4 col-xs-6">
+												<img class="img-responsive portfolio-img" src="http://lorempixel.com/400/200/">
+												<p class="item-title">Item 3</p>
+												<p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+										</div>
+								</a>
+
+								<!-- Item 4 -->
+								<a href="#" target="_blank">
+										<div class="clearfix hidden-xs hidden-sm"></div>
+										<div class="portfolio-item col-md-4 col-xs-6">
+												<img class="img-responsive portfolio-img" src="http://lorempixel.com/400/200/">
+												<p class="item-title">Item 4</p>
+												<p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+										</div>
+								</a>
+
+								<!-- Item 5 -->
+								<a href="#" target="_blank">
+										<div class="clearfix visible-xs-block visible-sm-block"></div>
+										<div class="portfolio-item col-md-4 col-xs-6">
+												<img class="img-responsive portfolio-img" src="http://lorempixel.com/400/200/">
+												<p class="item-title">Item 5</p>
+												<p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+										</div>
+								</a>
+
+								<!-- Item 6 -->
+								<a href="#" target="_blank">
+										<div class="portfolio-item col-md-4 col-xs-6">
+
+												<img class="img-responsive portfolio-img" src="http://lorempixel.com/400/200/">
+												<p class="item-title">Item 6</p>
+												<p class="item-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+										</div>
+								</a>
+
+						</div>
+						<!-- / Row -->
+
+				</div>
+				<!-- / Portfolio container -->
+
+		</section>
+		<!-- /Portfolio section -->
+
+
+		<section id="contactSection" class="section contact">
+
+
+				<div class="contact-container">
+						<h2 class="contact-mail">Contact DE|JI Design at <a href="mailto:dennis.andersson88@gmail.com" target="_blank">dennis.andersson88@gmail.com</a></h2>
+
+						<!-- Social links -->
+						<div class="pull-left social-links">
+								<a href="https://twitter.com/movrax" target="_blank" class="social-link btn btn-default"><img class="social-image" src="http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/24/Web-Twitter-alt-2-Metro-icon.png">Twitter</a>
+								<a href="https://github.com/deandersson" target="_blank" class="social-link btn btn-default"><img class="social-image" src="http://icons.iconarchive.com/icons/icons8/windows-8/24/Programming-Github-icon.png">GitHub</a>
+								<a href="https://plus.google.com/u/0/108342482887771416137" target="_blank" class="social-link btn btn-default"><img class="social-image" src="http://icons.iconarchive.com/icons/dakirby309/windows-8-metro/24/Web-Google-plus-alt-Metro-icon.png">Google+</a>
+
+								<a href="http://www.freecodecamp.com/deandersson" target="_blank" class="social-link btn btn-default"><img class="social-image" src="http://thumb9.shutterstock.com/thumb_small/1571366/293517422/stock-vector-fire-flames-fire-burns-vector-black-icons-on-white-background-293517422.jpg">FreeCodeCamp</a>
+						</div>
+						<!-- /Social links -->
+
+				</div>
+				<!-- /Contact container -->
+
+		</section>
+		<!-- /Contact section -->
+
+		<footer>
+				<ul class="link-list">
+						<li><a href="#homeSection">Home</a></li>
+						<li><a href="#aboutSection">About</a></li>
+						<li><a href="#portfolioSection">Portfolio</a></li>
+						<li><a href="#contactSection">Contact</a></li>
+				</ul>
+				<br>
+				<p class="small-text">Copyright bla bla</p>
+		</footer>
  </body>
 </html>
 
