@@ -169,11 +169,7 @@ return htmlTemplate
 
 
 
-$(document).ready(function() {
-  $(".navbar-nav li a").on("click", function() {
-    $(".navbar-collapse").collapse('hide');
-  });
-});
+
 
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
