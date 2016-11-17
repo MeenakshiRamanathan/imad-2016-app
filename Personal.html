@@ -1,0 +1,239 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <style>
+nav {
+  padding-bottom: 0px;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: gray;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: black;
+  text-shadow: 1px 1px 8px white;
+  text-decoration: underline;
+}
+
+h1 {
+  color: white;
+  font-size: 55px;
+  text-shadow: 3px 3px 4px #000000;
+}
+
+h1 small {
+  color: white;
+  font-size: 25px;
+  text-shadow: 2px 2px 8px #000000;
+}
+
+#about {
+  background-image: url("http://i.imgur.com/AMf9X7E.jpg");
+}
+
+#home {
+  background-image: url("http://i.imgur.com/SQLA8h5.jpg");
+}
+
+#portifolio {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url("http://i.imgur.com/Yf9mHYH.jpg");
+  min-height: 100%;
+  max-height: auto;
+  height: auto;
+}
+
+#contact {
+  background-image: url("http://i.imgur.com/pfvBBmD.jpg");
+}
+
+.item {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.item .container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.contact-item {
+  color: white;
+  font-size: 28px;
+  text-shadow: 0px 0px 4px #000000;
+}
+
+.itemTitle {
+  font-size: 40px;
+}
+
+#about div p {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 20px;
+}
+</style>
+<body>
+
+<nav id="navbar-top" class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <span class="navbar-brand">João Víctor</span>
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse navHeaderCollapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portifolio">Portifolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="home" class="item">
+  <div class="container text-center">
+    <h1>João Víctor<br/><small>Programmer, Game Developer &amp; Web Developer</small></h1>
+  </div>
+</div>
+<div id="about" class="item">
+  <div class="container text-left">
+    <h1 class="itemTitle">About me</h1>
+    <hr>
+    <p>I'm a self taught programmer, web developer, game developer and sometimes, web designer.
+      <br>I'm from Brazil and currently I'm on <a target="_blank" href="https://www.ifgoiano.edu.br/home/index.php/cursos-tecnicos-ceres/192-informatica">high school with a technical course on informatica</a>. I have four years of experience with computer
+      programming.</p>
+    <p>I know the basics of Java, PHP, JavaScript and I'm experienced with C++ and C#.</p>
+    <p>For Game Development and programming I normally like to use <a target="_blank" href="https://www.allegro.cc">Allegro 5</a> for 2D games and <a target="_blank" href="https://unity3d.com/pt">Unity</a> for 3D games, but I also have used <a target="_blank"
+      href="https://www.libsdl.org/">SDL</a>.</p>
+    <p>For Web development I usually use <a target="_blank" href="getbootstrap.com/">Bootstrap</a> and <a target="_blank" href="https://jquery.com">jQuery</a>.</p>
+    <p>I also have experience with SQL (<a target="_blank" href="https://www.mysql.com/">MySQL</a> and <a target="_blank" href="https://mariadb.org/">MariaDB</a>).</p>
+  </div>
+</div>
+<div id="portifolio">
+  <div class="container text-center">
+    <h1>Portfolio</h1>
+    <br>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://i.imgur.com/HhnZY2D.png" alt="Screenshoot">
+            <div class="caption">
+              <h3>Twitch JSON API</h3>
+              <p>A simple application for a FreeCodeCamp Zipline</p>
+              <p><a href="http://codepen.io/jvhti/full/adEQpq/" target="_blank" class="btn btn-primary" role="button">Visit!</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://i.imgur.com/vqhJr7A.png" alt="Screenshoot">
+            <div class="caption">
+              <h3>Wikipedia Viewer </h3>
+              <p>A application that uses Wikipedia API for search with keywords or to open an random page.</p>
+              <p><a href="http://codepen.io/jvhti/full/vLJjZp/" target="_blank" class="btn btn-primary" role="button">Visit!</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://i.imgur.com/Pb9N6H3.png" alt="Screenshoot">
+            <div class="caption">
+              <h3>Random Quote Machine</h3>
+              <p>A random quote machine. You can tweet any quote.</p>
+              <p><a href="http://codepen.io/jvhti/full/ZQKavz/" class="btn btn-primary" target="_blank" role="button">Visit!</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://i.imgur.com/ED5Twf1.png" alt="Screenshoot">
+            <div class="caption">
+              <h3>Pomodore</h3>
+              <p>Manage your time with a work-rest style.</p>
+              <p><a href="http://codepen.io/jvhti/full/mVmaEz/" class="btn btn-primary" target="_blank" role="button">Visit!</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://i.imgur.com/Y5ZKaXk.png" alt="Screenshoot">
+            <div class="caption">
+              <h3>Calculator</h3>
+              <p>A simple calculator that can do chain operations.</p>
+              <p><a href="http://codepen.io/jvhti/full/wMqpJQ/" class="btn btn-primary" target="_blank" role="button">Visit!</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://i.imgur.com/OEgvLpI.png" alt="Screenshoot">
+            <div class="caption">
+              <h3>Stylize Stories</h3>
+              <p>That simple page shows you a post feed from FreeCodeCamp.</p>
+              <p><a href="http://codepen.io/jvhti/full/adyYMz/" class="btn btn-primary" target="_blank" role="button">Visit!</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="contact" class="item">
+  <div class="container">
+    <h1>Contact me</h1>
+    <hr>
+    <br>
+    <span class="contact-item">E-mail: <a href="MAILTO:jvhti@hotmail.com" target="_blank">jvhti@hotmail.com</a></span>
+    <br>
+    <span class="contact-item">FreeCodeCamp: </span>
+    <a href="http://freecodecamp.com/jvhti" target="_blank"><button class="btn btn-default" >FreeCodeCamp</button></a>
+    <br>
+    <span class="contact-item">GitHub: </span>
+    <a href="https://github.com/jvhti" target="_blank"><button class="btn btn-default">GitHub</button></a>
+    <br>
+  </div>
+</div>
+
+
+
+
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+
