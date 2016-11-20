@@ -32,7 +32,7 @@ var articles= {
  'articleTwo' :
     
     {title:'Article2||Meenakshi Ramanathan',
-    heading:'Article-Two',
+    heading:'One Indian Girl',
     img:{src:"https://lh4.ggpht.com/-s3IohZsL0g8/V7xOZ9EIEMI/AAAAAACp7kQ/DRXp9wZ5XcQ/w1000-h800/celebritysays-one-indian-girl-preorders-are-off-the-charts-book-your-copy-to.jpg"},
     content:'Unlike his previous books, Bhagat chose a female protagonist and written the story in female first person. A girl who is well educated, Intelligent and successful in his life. Unlike other girls, she has a opinion on everything.',
     content1: ` <p> The Story starts with the wedding scene of Radhika Mehta. It's the first destination wedding in Mehta's family. Everywhere is a pleasant chaos of the wedding preparations and relatives. Goa Marriott is the hotel where both families are planned to stay.But in the last minute, Goa's CM came in the hotel for an event due to which Hotel staff reduced the no. of rooms booked by the Mehta's. And then the pleasant chaos converts into a horrible mess.
@@ -45,7 +45,7 @@ var articles= {
  'articleThree':
     
     {title:'Article3||Meenakshi Ramanathan',
-    heading:'Article-Three',
+    heading:'Half-Girlfriend',
     img:{src:"https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/Half_Girlfriend.jpg/220px-Half_Girlfriend.jpg"},
     content:'Half Girlfriend is an Indian English coming of age, young adult romance novel by Indian author Chetan Bhagat. The novel, set in rural Bihar, New Delhi, Patna, and New York, is the story of a Bihari boy in quest of winning over the girl he loves.',
     content1: `<p> Once upon a time, there was a Bihari boy called Madhav. He fell in love with a girl from Delhi called Riya. Madhav didn't speak English well. Riya did. Madhav wanted a relationship. Riya didn't. Riya just wanted friendship. Madhav didn't. Riya suggested a compromise. She agreed to be his half girlfriend. From the author of the blockbuster novels Five Point Someone, One Night @ the Call Center, The 3 Mistakes of My Life, 2 States and Revolution 2020 comes a simple and beautiful love story that will touch your heart and inspire you to chase your dreams.</p>`,
@@ -55,18 +55,21 @@ var articles= {
 'articleFour':
     
     {title:'Article4||Meenakshi Ramanathan',
-    heading:'Article-Four',
+    heading:'Revolution 2020',
     img:{src:"https://upload.wikimedia.org/wikipedia/en/4/44/Revolution_2020.jpg"},                     
     content:`Revolution 2020: Love, Corruption, Ambition is a 2011 novel by Chetan Bhagat Its story is concerned with a love triangle, corruption and a journey of self-discovery. R2020 has addressed the issue of how private coaching institutions exploit aspiring engineering students. How parents put their lifetime's earnings on stake for these classes so that their children can crack engineering exams and change the fortune of the family.`,
     content1: `<p> Once upon a time, in small-town India, there lived two intelligent boys.One wanted to use his intelligence to make money.One wanted to use his intelligence to create a revolution.The problem was, they both loved the same girl.Welcome to Revolution 2020. A story about childhood friends Gopal, Raghav and Aarti who struggle to find success and love in Varanasi. However, it is easy to achieve this in an unfair society that rewards the corrupt. As Gopal gives in to the system, and Raghav fights it, who will win?</p>`,
     content2: `Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians.`},
+    
+    
     'articleFive':
-    {title:'',
-    heading:'',
+    {title:'Article5||Meenakshi Ramanathan',
+    heading:'Two States',
     img:{src:""},
-    content:``,
-    content1:``,
-    content2:``,},
+    content:`2 States is a 2014 Indian romantic comedy-drama film directed by Abhishek Varman based on the 2009 novel of the same name written by Chetan Bhagat. It is produced by Karan Johar and Sajid Nadiadwala. The film stars Arjun Kapoor and Alia Bhatt in lead roles. The film was released on 18 April 2014.`,
+    content1:`Krish Malhotra (Arjun Kapoor), a student pursuing his MBA at the IIM Ahmedabad, Gujarat, comes from a family of Punjabi heritage. He meets Ananya Swaminathan (Alia Bhatt) in his college who comes from a conservative Tamil Brahmin family. Krish and Ananya become friends and start studying together. Soon they begin dating, and stay together for their two years on the IIM campus. Krish confides in Ananya that his real passion is writing, which he wants to pursue a career in. They both have become so close to each other and also have developed sexual relationship many times during the stay in IIMA.`,
+    content2:`Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians.`,},
+    
     
      'articleSix':
     {title:'',
@@ -74,7 +77,7 @@ var articles= {
     img:{src:""},
     content:``,
     content1:``,
-    content2:``,}
+    content2:`Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians.`,}
 };
 
 function createTemplate(data){
