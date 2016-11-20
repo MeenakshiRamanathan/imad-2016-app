@@ -72,11 +72,11 @@ var articles= {
     
     
      'articleSix':
-    {title:'',
-    heading:'',
-    img:{src:""},
-    content:``,
-    content1:``,
+    {title:'Article6||Meenakshi Ramanathan',
+    heading:'Five Point Someone',
+    img:{src:"https://n2.sdlcdn.com/imgs/a/4/g/Five-Point-Someone-1038473-1-e9b6b.jpg"},
+    content:`Five Point Someone: What not to do at IIT! is a 2004 novel written by Chetan Bhagat, an alumnus of Indian Institute of Technology, Delhi and Indian Institute of Management, Ahmedabad. The book sold more than a million copies worldwide. The popular Hindi movie 3 Idiots is based on this book.`,
+    content1:`The book is narrated by Hari, with some small passages by his friends Ryan and Alok, as well as a letter by Hari's girlfriend Neha Cherian. It deals with the lives of the three friends, whose elation on making it to one of the best engineering colleges in India is quickly deflated by the rigor and monotony of the academic work. Most of the book deals with the numerous attempts by the trio to cope with and/or beat the system as well as Hari's fling with Neha who just happens to be the daughter of Prof. Cherian, the domineering head of the Mechanical Engineering Department of their college.`,
     content2:`Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians.`,}
 };
 
