@@ -65,7 +65,7 @@ var articles= {
     'articleFive':
     {title:'Article5||Meenakshi Ramanathan',
     heading:'Two States',
-    img:{src:""},
+    img:{src:"https://upload.wikimedia.org/wikipedia/en/thumb/1/12/2_States_poster.jpg/220px-2_States_poster.jpg"},
     content:`2 States is a 2014 Indian romantic comedy-drama film directed by Abhishek Varman based on the 2009 novel of the same name written by Chetan Bhagat. It is produced by Karan Johar and Sajid Nadiadwala. The film stars Arjun Kapoor and Alia Bhatt in lead roles. The film was released on 18 April 2014.`,
     content1:`Krish Malhotra (Arjun Kapoor), a student pursuing his MBA at the IIM Ahmedabad, Gujarat, comes from a family of Punjabi heritage. He meets Ananya Swaminathan (Alia Bhatt) in his college who comes from a conservative Tamil Brahmin family. Krish and Ananya become friends and start studying together. Soon they begin dating, and stay together for their two years on the IIM campus. Krish confides in Ananya that his real passion is writing, which he wants to pursue a career in. They both have become so close to each other and also have developed sexual relationship many times during the stay in IIMA.`,
     content2:`Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians.`,},
