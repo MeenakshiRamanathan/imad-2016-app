@@ -59,7 +59,22 @@ var articles= {
     img:{src:"https://upload.wikimedia.org/wikipedia/en/4/44/Revolution_2020.jpg"},                     
     content:`Revolution 2020: Love, Corruption, Ambition is a 2011 novel by Chetan Bhagat Its story is concerned with a love triangle, corruption and a journey of self-discovery. R2020 has addressed the issue of how private coaching institutions exploit aspiring engineering students. How parents put their lifetime's earnings on stake for these classes so that their children can crack engineering exams and change the fortune of the family.`,
     content1: `<p> Once upon a time, in small-town India, there lived two intelligent boys.One wanted to use his intelligence to make money.One wanted to use his intelligence to create a revolution.The problem was, they both loved the same girl.Welcome to Revolution 2020. A story about childhood friends Gopal, Raghav and Aarti who struggle to find success and love in Varanasi. However, it is easy to achieve this in an unfair society that rewards the corrupt. As Gopal gives in to the system, and Raghav fights it, who will win?</p>`,
-    content2: `Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians.`}
+    content2: `Chetan Bhagat is an Indian author, columnist, screenwriter, television personality and motivational speaker, known for his English-language dramedy novels about young urban middle-class Indians.`},
+    'articleFive':
+    {title:'',
+    heading:'',
+    img:{src:""},
+    content:``,
+    content1:``,
+    content2:``,},
+    
+     'articleSix':
+    {title:'',
+    heading:'',
+    img:{src:""},
+    content:``,
+    content1:``,
+    content2:``,}
 };
 
 function createTemplate(data){
